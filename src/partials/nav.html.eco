@@ -1,0 +1,21 @@
+
+<a class="ui simple dropdown item">
+  About <i class="dropdown icon"></i>
+  <div class="menu" style="min-width: 200px;">
+    <div class="item">Rules</div>
+    <div class="item">Agenda</div>
+    <div class="item">Prizes</div>
+    <div class="divider"></div>
+    <div class="item">About Hackathon</div>
+  </div>
+</a>
+<a class="ui simple dropdown item">
+  Projects <i class="dropdown icon"></i>
+  <div class="menu" style="min-width: 150px;">
+    <div class="item">Teams</div>
+    <div class="item">Ideas</div>
+    <div class="divider"></div>
+    <div class="header">Prizes</div>
+    <div class="item">Link Item</div>
+  </div>
+</a>

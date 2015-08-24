@@ -1,0 +1,9 @@
+---
+title: "Welcome!"
+layout: "default"
+isPage: true
+---
+<div class="ui main text container">
+  <h1><%= @document.title %></h1>
+  <%- @content %>
+</div>

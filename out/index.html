@@ -1,0 +1,167 @@
+<!doctpye html>
+<html>
+  <head>
+    <title>Welcome!</title>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0">
+    <link rel="stylesheet" href="/semantic/semantic.min.css" />
+    <script src="/js/vendor/jquery-2.1.4.min.js"></script>
+    <script src="/semantic/semantic.min.js"></script>
+    <style>
+      .main.container {
+        margin: 7em 0px;
+      }
+      .footer{
+        margin-bottom: 0px;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="ui fixed inverted menu">
+      <div class="ui container">
+        <a href="/" class="header item active">
+          <img class="logo" src="/img/logo-sm.png">
+          Hackodex
+        </a>
+        <a class="ui simple dropdown item">
+  About <i class="dropdown icon"></i>
+  <div class="menu" style="min-width: 200px;">
+    <div class="item">Rules</div>
+    <div class="item">Agenda</div>
+    <div class="item">Prizes</div>
+    <div class="divider"></div>
+    <div class="item">About Hackathon</div>
+  </div>
+</a>
+<a class="ui simple dropdown item">
+  Projects <i class="dropdown icon"></i>
+  <div class="menu" style="min-width: 150px;">
+    <div class="item">Teams</div>
+    <div class="item">Ideas</div>
+    <div class="divider"></div>
+    <div class="header">Prizes</div>
+    <div class="item">Link Item</div>
+  </div>
+</a>
+
+      </div>
+    </div>
+    <p><style>
+  .ui.masthead {
+    height: 100%;
+    min-height: 600px;
+    padding-top: 7em;
+  }
+  .ui.masthead h2 {
+    font-weight: normal;
+    font-size: 1.3rem;
+  }
+</style></p>
+<div class="ui inverted vertical masthead center aligned segment">
+  <div class="ui text container">
+    <h1 class="ui inverted header">
+      Hackodex
+    </h1>
+    <h2>
+      Friday, February 8th 2013, 9:30:00 am
+    </h2>
+    <a class="ui huge inverted basic button" href="#">Get Started <i class="right arrow icon"></i></a>
+  </div>
+</div>
+
+
+    <!-- footer -->
+    <div class="ui inverted vertical footer segment">
+      <div class="ui center aligned container">
+        <div class="ui stackable inverted divided grid">
+          <div class="three wide column">
+            <h4 class="ui inverted header">Group 1</h4>
+            <div class="ui inverted link list">
+              <a href="#" class="item">Link One</a>
+              <a href="#" class="item">Link Two</a>
+              <a href="#" class="item">Link Three</a>
+              <a href="#" class="item">Link Four</a>
+            </div>
+          </div>
+          <div class="three wide column">
+            <h4 class="ui inverted header">Group 2</h4>
+            <div class="ui inverted link list">
+              <a href="#" class="item">Link One</a>
+              <a href="#" class="item">Link Two</a>
+              <a href="#" class="item">Link Three</a>
+              <a href="#" class="item">Link Four</a>
+            </div>
+          </div>
+          <div class="three wide column">
+            <h4 class="ui inverted header">Group 3</h4>
+            <div class="ui inverted link list">
+              <a href="#" class="item">Link One</a>
+              <a href="#" class="item">Link Two</a>
+              <a href="#" class="item">Link Three</a>
+              <a href="#" class="item">Link Four</a>
+            </div>
+          </div>
+          <div class="seven wide column">
+            <h4 class="ui inverted header">Footer Header</h4>
+            <p>Extra space for a call to action inside the footer that could help re-engage users.</p>
+          </div>
+        </div>
+        <div class="ui inverted section divider"></div>
+        <img src="/img/logo-sm.png" class="ui centered mini image">
+        <div class="ui horizontal inverted small divided link list">
+          <a class="item" href="#">Site Map</a>
+          <a class="item" href="#">Contact Us</a>
+          <a class="item" href="#">Terms and Conditions</a>
+          <a class="item" href="#">Privacy Policy</a>
+        </div>
+      </div>
+    </div>
+    <script >(function(){
+	/* Did we just livereload? */
+var log = !!(localStorage && console && console.log && true);
+if ( log && localStorage.getItem('/docpad-livereload/reloaded') === 'yes' ) {
+	localStorage.removeItem('/docpad-livereload/reloaded');
+	console.log('LiveReload completed at', new Date())
+}
+
+/* Listen for the regenerated event and perform a reload of the page when the event occurs */
+var listen = function(){
+	var primus = new Primus('/docpad-livereload');
+	primus.on('data', function(data){
+		if ( data && data.message ) {
+			if ( data.message === 'generateBefore' ) {
+				if ( log ) {
+					console.log('LiveReload started at', new Date());
+				}
+				if ( typeof document.getElementsByTagName !== 'undefined' ) {
+	document.getElementsByTagName('html')[0].className += ' wait';
+}
+			}
+			else if ( data.message === 'generateAfter' ) {
+				if ( log ) {
+					localStorage.setItem('/docpad-livereload/reloaded', 'yes');
+				}
+				document.location.reload();
+			}
+		}
+	});
+};
+	/* Inject socket into our page */
+var inject = function(){
+	var t = document.createElement('script');
+	t.type = 'text/javascript';
+	t.async = 'async';
+	t.src = '/primus/primus.js';
+	t.onload = listen;
+	var s = document.getElementsByTagName('script')[0];
+	s.parentNode.insertBefore(t, s);
+};
+	if ( typeof Primus !== 'undefined' ) {
+		listen();
+	} else {
+		inject();
+	}
+})();</script>
+  </body>
+</html>
