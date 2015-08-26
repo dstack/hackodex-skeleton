@@ -2,25 +2,35 @@
 title: "Welcome!"
 layout: "default"
 ---
-<style>
-  .ui.masthead {
-    height: 100%;
-    min-height: 600px;
-    padding-top: 7em;
-  }
-  .ui.masthead h2 {
-    font-weight: normal;
-    font-size: 1.3rem;
-  }
-</style>
-<div class="ui inverted vertical masthead center aligned segment">
-  <div class="ui text container">
-    <h1 class="ui inverted header">
-      Hackodex
+<div class="masthead center inverted">
+  <div class="ct">
+    <img src="/img/logo-lg.png" />
+    <h1>
+      <%- @event.eventName %>
     </h1>
-    <h2>
-      <%= @evtStartDate() %>
-    </h2>
-    <a class="ui huge inverted basic button" href="#">Get Started <i class="right arrow icon"></i></a>
+    <h6>
+      <%- @event.shortDescription %>
+    </h6>
+    <h4>
+      <%= @evtStartDateTimeDisplay() %>
+    </h4>
+    <hr class="to" />
+    <h4>
+      <%= @evtEndDateTimeDisplay() %>
+    </h4>
+  </div>
+</div>
+<div class="loc" style="background: url(https://maps.googleapis.com/maps/api/staticmap?center=The+Streets+at+Southglenn,Centennial,CO&zoom=13&scale=2&size=1280x250&maptype=roadmap) 50% 50%;">
+  <address>
+    19789 E 47th Dr.<br/>
+    Denver, CO 80249
+  </address>
+</div>
+<div class="content">
+  <div class="ct">
+    <h1 style="font-weight: 100">We <i class="fa fa-heart red"></i> Our Sponsors</h1>
+    <h4>
+      Thanks to our sponsors and partners below, we're able to have a <b>great</b> hackathon.
+    </h4>
   </div>
 </div>

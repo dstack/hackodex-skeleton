@@ -1,0 +1,166 @@
+@import 'nib'
+@import 'typographic'
+@import 'jeet/_jeet'
+
+pure-black = #000
+black = #212121
+white = #fff
+
+/* colors */
+red = #f44336
+pink = #E91E63
+purple = #9C27B0
+deep-purple = #673AB7
+indigo = #3F51B5
+blue = #2196F3
+light-blue = #03A9F4
+cyan = #00BCD4
+teal = #009688
+green = #4CAF50
+light-green = #8BC34A
+lime = #CDDC39
+yellow = #FFEB3B
+amber = #FFC107
+orange = #FF9800
+deep-orange = #FF5722
+brown = #795548
+grey = #9E9E9E
+blue-grey = #607D8B
+
+primary-color = blue
+secondary-color = green
+
+global-reset()
+typographic()
+
+body
+  font-family $futura
+  color black
+  background white
+
+nav
+  &.topnav
+    fixed top 0px left 0px
+    width 100%
+    height 55px
+
+a
+  text-decoration none
+
+.red
+  color red
+
+.cf
+  clearfix()
+.ct
+  width 80%
+  max-width 960px
+  margin 0px auto
+  clearfix()
+
+.inverted
+  background black
+  *
+    color white
+
+.masthead
+  height 100%
+  min-height 400px
+  background-image url('/img/textures/diagmonds.png'), linear-gradient(to bottom, primary-color 0%,secondary-color 100%)
+  h1
+    margin-top 0.5em
+    text-shadow 0px 3px 5px black
+    font-size 3em
+    margin-bottom 0px
+  h6
+    margin-top 0.02em
+  h4
+    margin 0.75em 0px
+  .to
+    h = 36px
+    border none
+    background white
+    height 1px
+    width 80%
+    margin (h/2) 10%
+    position relative
+    font-style italic
+    &:before
+      content 'to'
+      display block
+      background primary-color
+      height h
+      width h
+      line-height h
+      border-radius 50%
+      position absolute
+      top -18px
+      left 50%
+      margin-left ((h+4)/-2)
+      border solid 2px white
+
+.loc
+  width 100%
+  height 500px
+  background-size cover
+  position relative
+  address
+    background white
+    padding 12px
+    margin-bottom 0px
+    absolute bottom 0px right 0px
+    box-shadow 0px 0px 5px rgba(black, 0.35)
+
+
+.center
+  text-align center
+  display -ms-flexbox
+  display -webkit-flex
+  display flex
+  -ms-flex-align center
+  -webkit-align-item center
+  -webkit-box-align center
+  align-items center
+  justify-content center
+
+.content
+  padding 3em 0px
+
+.main
+  margin 7em 0px
+.footer
+  margin-bottom 0px
+  font-size 0.75em
+  padding-top 35px
+  *
+    color darken(white, 35%)
+  h1, h2, h3, h4, h5, h6
+    margin 0.25em 0px
+    color white
+    font-weight 700
+  h4
+    font-size 1em
+  a:hover
+    color white
+  p
+    line-height 1.5em
+  ul
+    padding 0px
+    margin 0px
+    li
+      padding 0.415 0em
+      line-height 1.5em
+  .small-col
+    text-align left
+    j-column(3/16)
+    box-shadow 1px 0px 0px 0px rgba(255, 255, 255, 0.1)
+  .big-col
+    j-column(7/16)
+    text-align left
+  .site-info
+    margin-top 24px
+    background pure-black
+    line-height h = 36px
+    height = h
+    img
+      relative top -18px

@@ -5,21 +5,13 @@
     <meta charset="utf-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0">
-    <link rel="stylesheet" href="/semantic/semantic.min.css" />
+    <link rel="stylesheet" href="/css/main.css" />
+    <link rel="stylesheet" href="/css/font-awesome.min.css" />
     <script src="/js/vendor/jquery-2.1.4.min.js"></script>
-    <script src="/semantic/semantic.min.js"></script>
-    <style>
-      .main.container {
-        margin: 7em 0px;
-      }
-      .footer{
-        margin-bottom: 0px;
-      }
-    </style>
   </head>
   <body>
-    <div class="ui fixed inverted menu">
-      <div class="ui container">
+    <nav class="topnav">
+      <div class="ct">
         <a href="/" class="header item active">
           <img class="logo" src="/img/logo-sm.png">
           Hackodex
@@ -46,74 +38,84 @@
 </a>
 
       </div>
-    </div>
-    <p><style>
-  .ui.masthead {
-    height: 100%;
-    min-height: 600px;
-    padding-top: 7em;
-  }
-  .ui.masthead h2 {
-    font-weight: normal;
-    font-size: 1.3rem;
-  }
-</style></p>
-<div class="ui inverted vertical masthead center aligned segment">
-  <div class="ui text container">
-    <h1 class="ui inverted header">
+    </nav>
+    <div class="masthead center inverted">
+  <div class="ct">
+    <img src="/img/logo-lg.png" />
+    <h1>
       Hackodex
     </h1>
-    <h2>
-      Friday, February 8th 2013, 9:30:00 am
-    </h2>
-    <a class="ui huge inverted basic button" href="#">Get Started <i class="right arrow icon"></i></a>
+    <h6>
+      Changing the World with Technology, Ideas, &amp; Hard Work.
+    </h6>
+    <h4>
+      Saturday, August 8th 2015, 9:30 am
+    </h4>
+    <hr class="to" />
+    <h4>
+      Wednesday, August 12th 2015, 12:00 am
+    </h4>
+  </div>
+</div>
+<div class="loc" style="background: url(https://maps.googleapis.com/maps/api/staticmap?center=The+Streets+at+Southglenn,Centennial,CO&zoom=13&scale=2&size=1280x250&maptype=roadmap) 50% 50%;">
+  <address>
+    19789 E 47th Dr.<br/>
+    Denver, CO 80249
+  </address>
+</div>
+<div class="content">
+  <div class="ct">
+    <h1 style="font-weight: 100">We <i class="fa fa-heart red"></i> Our Sponsors</h1>
+    <h4>
+      Thanks to our sponsors and partners below, we&#39;re able to have a <b>great</b> hackathon.
+    </h4>
   </div>
 </div>
 
 
     <!-- footer -->
-    <div class="ui inverted vertical footer segment">
-      <div class="ui center aligned container">
-        <div class="ui stackable inverted divided grid">
-          <div class="three wide column">
-            <h4 class="ui inverted header">Group 1</h4>
-            <div class="ui inverted link list">
-              <a href="#" class="item">Link One</a>
-              <a href="#" class="item">Link Two</a>
-              <a href="#" class="item">Link Three</a>
-              <a href="#" class="item">Link Four</a>
-            </div>
-          </div>
-          <div class="three wide column">
-            <h4 class="ui inverted header">Group 2</h4>
-            <div class="ui inverted link list">
-              <a href="#" class="item">Link One</a>
-              <a href="#" class="item">Link Two</a>
-              <a href="#" class="item">Link Three</a>
-              <a href="#" class="item">Link Four</a>
-            </div>
-          </div>
-          <div class="three wide column">
-            <h4 class="ui inverted header">Group 3</h4>
-            <div class="ui inverted link list">
-              <a href="#" class="item">Link One</a>
-              <a href="#" class="item">Link Two</a>
-              <a href="#" class="item">Link Three</a>
-              <a href="#" class="item">Link Four</a>
-            </div>
-          </div>
-          <div class="seven wide column">
-            <h4 class="ui inverted header">Footer Header</h4>
-            <p>Extra space for a call to action inside the footer that could help re-engage users.</p>
-          </div>
+    <div class="inverted footer">
+      <div class="ct">
+        <div class="small-col">
+          <h4>Group 1</h4>
+          <ul>
+            <li><a href="#" class="item">Link One</a></li>
+            <li><a href="#" class="item">Link Two</a></li>
+            <li><a href="#" class="item">Link Three</a></li>
+            <li><a href="#" class="item">Link Four</a></li>
+          </ul>
         </div>
-        <div class="ui inverted section divider"></div>
-        <img src="/img/logo-sm.png" class="ui centered mini image">
-        <div class="ui horizontal inverted small divided link list">
-          <a class="item" href="#">Site Map</a>
-          <a class="item" href="#">Contact Us</a>
-          <a class="item" href="#">Terms and Conditions</a>
-          <a class="item" href="#">Privacy Policy</a>
+        <div class="small-col">
+          <h4>Group 2</h4>
+          <ul>
+            <li><a href="#" class="item">Link One</a></li>
+            <li><a href="#" class="item">Link Two</a></li>
+            <li><a href="#" class="item">Link Three</a></li>
+            <li><a href="#" class="item">Link Four</a></li>
+          </ul>
+        </div>
+        <div class="small-col">
+          <h4>Group 3</h4>
+          <ul>
+            <li><a href="#" class="item">Link One</a></li>
+            <li><a href="#" class="item">Link Two</a></li>
+            <li><a href="#" class="item">Link Three</a></li>
+            <li><a href="#" class="item">Link Four</a></li>
+          </ul>
+        </div>
+        <div class="big-col">
+          <h4>Footer Header</h4>
+          <p>Extra space for a call to action inside the footer that could help re-engage users.</p>
+        </div>
+      </div>
+      <div class="site-info">
+        <div class="ct">
+          <img src="/img/logo-sm.png" class="ui centered mini image">
+          <a class="item" href="#">Site Map</a> |
+          <a class="item" href="#">Contact Us</a> |
+          <a class="item" href="#">Terms and Conditions</a> |
+          <a class="item" href="#">Privacy Policy</a> |
+          &copy; Hackodex 2015
         </div>
       </div>
     </div>

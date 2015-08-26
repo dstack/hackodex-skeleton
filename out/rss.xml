@@ -5,9 +5,9 @@
         <description><![CDATA[Untitled RSS Feed]]></description>
         <link>http://127.0.0.1:9778</link>
         <generator>RSS for Node</generator>
-        <lastBuildDate>Mon, 24 Aug 2015 00:56:31 GMT</lastBuildDate>
+        <lastBuildDate>Wed, 26 Aug 2015 06:26:02 GMT</lastBuildDate>
         <atom:link href="http://127.0.0.1:9778/rss.xml" rel="self" type="application/rss+xml"/>
-        <pubDate>Mon, 24 Aug 2015 00:32:43 GMT</pubDate>
+        <pubDate>Wed, 26 Aug 2015 05:17:35 GMT</pubDate>
         <item>
             <title><![CDATA[About]]></title>
             <description><![CDATA[<h1 id="semantic-ui-fixed-template">Semantic UI Fixed Template</h1>
@@ -24,31 +24,41 @@
         </item>
         <item>
             <title><![CDATA[Welcome!]]></title>
-            <description><![CDATA[<p><style>
-  .ui.masthead {
-    height: 100%;
-    min-height: 600px;
-    padding-top: 7em;
-  }
-  .ui.masthead h2 {
-    font-weight: normal;
-    font-size: 1.3rem;
-  }
-</style></p>
-<div class="ui inverted vertical masthead center aligned segment">
-  <div class="ui text container">
-    <h1 class="ui inverted header">
+            <description><![CDATA[<div class="masthead center inverted">
+  <div class="ct">
+    <img src="/img/logo-lg.png" />
+    <h1>
       Hackodex
     </h1>
-    <h2>
-      Friday, February 8th 2013, 9:30:00 am
-    </h2>
-    <a class="ui huge inverted basic button" href="#">Get Started <i class="right arrow icon"></i></a>
+    <h6>
+      Changing the World with Technology, Ideas, &amp; Hard Work.
+    </h6>
+    <h4>
+      Saturday, August 8th 2015, 9:30 am
+    </h4>
+    <hr class="to" />
+    <h4>
+      Wednesday, August 12th 2015, 12:00 am
+    </h4>
+  </div>
+</div>
+<div class="loc" style="background: url(https://maps.googleapis.com/maps/api/staticmap?center=The+Streets+at+Southglenn,Centennial,CO&zoom=13&scale=2&size=1280x250&maptype=roadmap) 50% 50%;">
+  <address>
+    19789 E 47th Dr.<br/>
+    Denver, CO 80249
+  </address>
+</div>
+<div class="content">
+  <div class="ct">
+    <h1 style="font-weight: 100">We <i class="fa fa-heart red"></i> Our Sponsors</h1>
+    <h4>
+      Thanks to our sponsors and partners below, we&#39;re able to have a <b>great</b> hackathon.
+    </h4>
   </div>
 </div>]]></description>
             <link>http://127.0.0.1:9778/index.html</link>
             <guid isPermaLink="true">http://127.0.0.1:9778/index.html</guid>
-            <pubDate>Mon, 24 Aug 2015 00:43:48 GMT</pubDate>
+            <pubDate>Wed, 26 Aug 2015 05:37:45 GMT</pubDate>
         </item>
     </channel>
 </rss>
