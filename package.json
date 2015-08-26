@@ -14,7 +14,8 @@
     "docpad-plugin-rss": "~2.2.0",
     "docpad-plugin-stylus": "~2.9.0",
     "docpad-plugin-tags": "~2.0.7",
-    "moment": "^2.10.6"
+    "moment": "^2.10.6",
+    "moment-timezone": "^0.4.0"
   },
   "main": "node_modules/.bin/docpad-server",
   "scripts": {

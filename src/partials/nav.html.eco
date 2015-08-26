@@ -1,21 +1,9 @@
+<a class="item" href="#">About</a>
+<a class="item" href="#">Rules</a>
+<a class="item" href="#">Agenda</a>
+<a class="item" href="#">Prizes</a>
 
-<a class="ui simple dropdown item">
-  About <i class="dropdown icon"></i>
-  <div class="menu" style="min-width: 200px;">
-    <div class="item">Rules</div>
-    <div class="item">Agenda</div>
-    <div class="item">Prizes</div>
-    <div class="divider"></div>
-    <div class="item">About Hackathon</div>
-  </div>
-</a>
-<a class="ui simple dropdown item">
-  Projects <i class="dropdown icon"></i>
-  <div class="menu" style="min-width: 150px;">
-    <div class="item">Teams</div>
-    <div class="item">Ideas</div>
-    <div class="divider"></div>
-    <div class="header">Prizes</div>
-    <div class="item">Link Item</div>
-  </div>
-</a>
+<a class="item" href="#">Projects</a>
+<a class="item" href="#">Teams</a>
+<a class="item" href="#">Ideas</a>
+<a class="item" href="#">Projects</a>

@@ -20,10 +20,9 @@ layout: "default"
     </h4>
   </div>
 </div>
-<div class="loc" style="background: url(https://maps.googleapis.com/maps/api/staticmap?center=The+Streets+at+Southglenn,Centennial,CO&zoom=13&scale=2&size=1280x250&maptype=roadmap) 50% 50%;">
+<div class="loc" style="background: url(<%- @getMapImg() %>) 50% 50%;">
   <address>
-    19789 E 47th Dr.<br/>
-    Denver, CO 80249
+    <%- @event.location.display %>
   </address>
 </div>
 <div class="content">
