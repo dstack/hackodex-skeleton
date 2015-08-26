@@ -616,8 +616,7 @@ a {
   position: absolute;
   bottom: 0px;
   right: 0px;
-  -webkit-box-shadow: 0px 0px 5px rgba(33,33,33,0.35);
-  box-shadow: 0px 0px 5px rgba(33,33,33,0.35);
+  border-left: solid 3px #2196f3;
 }
 .center {
   text-align: center;
@@ -649,7 +648,7 @@ a {
   padding: 3em 0px;
 }
 .main {
-  margin: 7em 0px;
+  margin: 3em 0px;
 }
 .footer {
   margin-bottom: 0px;

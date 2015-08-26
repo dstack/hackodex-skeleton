@@ -1,4 +1,4 @@
-<a class="item" href="#">About</a>
+<a class="item" href="/about.html">About</a>
 <a class="item" href="#">Rules</a>
 <a class="item" href="#">Agenda</a>
 <a class="item" href="#">Prizes</a>
@@ -6,4 +6,3 @@
 <a class="item" href="#">Projects</a>
 <a class="item" href="#">Teams</a>
 <a class="item" href="#">Ideas</a>
-<a class="item" href="#">Projects</a>
