@@ -13,8 +13,12 @@
     <nav class="topnav inverted">
       <div class="ct">
         <a href="/" class="header item active logo"><img class="logo" src="/img/logo-sm.png" /> Hackodex</a>
-        <%- @partial('nav') %>
+        <a href="#" class="btn menu-btn"><i class="fa fa-bars"></i> Menu</a>
+
       </div>
+    </nav>
+    <nav class="drawer">
+      <%- @partial('nav') %>
     </nav>
     <%- @content %>
 
