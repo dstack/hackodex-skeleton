@@ -5,7 +5,7 @@ layout: "default"
 <div class="masthead center inverted">
   <div class="ct">
     <img src="/img/logo-lg.png" />
-    <h1>
+    <h1 class="threeDtext">
       <%- @event.eventName %>
     </h1>
     <h6>

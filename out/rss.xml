@@ -5,9 +5,9 @@
         <description><![CDATA[Untitled RSS Feed]]></description>
         <link>http://127.0.0.1:9778</link>
         <generator>RSS for Node</generator>
-        <lastBuildDate>Wed, 16 Sep 2015 22:04:25 GMT</lastBuildDate>
+        <lastBuildDate>Wed, 16 Sep 2015 22:06:33 GMT</lastBuildDate>
         <atom:link href="http://127.0.0.1:9778/rss.xml" rel="self" type="application/rss+xml"/>
-        <pubDate>Wed, 16 Sep 2015 21:17:35 GMT</pubDate>
+        <pubDate>Wed, 16 Sep 2015 22:06:31 GMT</pubDate>
         <item>
             <title><![CDATA[About]]></title>
             <description><![CDATA[<h1 id="semantic-ui-fixed-template">Semantic UI Fixed Template</h1>
@@ -27,7 +27,7 @@
             <description><![CDATA[<div class="masthead center inverted">
   <div class="ct">
     <img src="/img/logo-lg.png" />
-    <h1>
+    <h1 class="threeDtext">
       Hackodex
     </h1>
     <h6>
@@ -61,7 +61,7 @@
 </div>]]></description>
             <link>http://127.0.0.1:9778/index.html</link>
             <guid isPermaLink="true">http://127.0.0.1:9778/index.html</guid>
-            <pubDate>Wed, 16 Sep 2015 21:23:55 GMT</pubDate>
+            <pubDate>Wed, 16 Sep 2015 22:06:18 GMT</pubDate>
         </item>
     </channel>
 </rss>
