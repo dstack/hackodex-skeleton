@@ -27,8 +27,8 @@ brown = #795548
 grey = #9E9E9E
 blue-grey = #607D8B
 
-primary-color = blue
-secondary-color = green
+primary-color = lime
+secondary-color = amber
 
 global-reset()
 typographic()
@@ -144,7 +144,7 @@ a
   background-size cover
   position relative
   address
-    background white
+    background black
     padding 12px
     margin-bottom 0px
     absolute bottom 0px right 0px
@@ -160,6 +160,7 @@ a
 
 .main
   margin 3em 0px
+
 
 .footer
   margin-bottom 0px
@@ -197,3 +198,14 @@ a
     height = h
     img
       relative top -18px
+
+/* sponsors */
+.sponsor
+  j-column(1/4, cycle: 4)
+  background red
+  height 150px
+  text-align center
+  img
+    margin-top 5%
+    max-width 90%
+    max-height 90%

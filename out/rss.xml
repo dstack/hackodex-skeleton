@@ -5,9 +5,9 @@
         <description><![CDATA[Untitled RSS Feed]]></description>
         <link>http://127.0.0.1:9778</link>
         <generator>RSS for Node</generator>
-        <lastBuildDate>Wed, 26 Aug 2015 21:38:19 GMT</lastBuildDate>
+        <lastBuildDate>Wed, 16 Sep 2015 22:04:25 GMT</lastBuildDate>
         <atom:link href="http://127.0.0.1:9778/rss.xml" rel="self" type="application/rss+xml"/>
-        <pubDate>Wed, 26 Aug 2015 20:51:32 GMT</pubDate>
+        <pubDate>Wed, 16 Sep 2015 21:17:35 GMT</pubDate>
         <item>
             <title><![CDATA[About]]></title>
             <description><![CDATA[<h1 id="semantic-ui-fixed-template">Semantic UI Fixed Template</h1>
@@ -42,7 +42,7 @@
     </h4>
   </div>
 </div>
-<div class="loc" style="background: url(https://maps.googleapis.com/maps/api/staticmap?center=2154+E+Commons+Ave,Centennial,CO,80122&markers=color:green%7Clabel:P%7C2154+E+Commons+Ave,Centennial,CO,80122&zoom=13&scale=2&size=1280x250&maptype=roadmap) 50% 50%;">
+<div class="loc inverted" style="background: url(https://maps.googleapis.com/maps/api/staticmap?center=2154+E+Commons+Ave,Centennial,CO,80122&markers=color:green%7Clabel:P%7C2154+E+Commons+Ave,Centennial,CO,80122&zoom=13&scale=2&size=1280x250&maptype=roadmap) 50% 50%;">
   <address>
     <b>Pearson eCollege Headquarters</b><br/>2154 E. Commons Avenue, Suite 4000,<br/>Centennial, CO 80122
   </address>
@@ -53,11 +53,15 @@
     <h4>
       Thanks to our sponsors and partners below, we&#39;re able to have a <b>great</b> hackathon.
     </h4>
+    <a class="sponsor">
+  <img alt="GitHub" src="https://assets-cdn.github.com/images/modules/contact/heartocat.png" />
+</a>
+
   </div>
 </div>]]></description>
             <link>http://127.0.0.1:9778/index.html</link>
             <guid isPermaLink="true">http://127.0.0.1:9778/index.html</guid>
-            <pubDate>Wed, 26 Aug 2015 16:27:19 GMT</pubDate>
+            <pubDate>Wed, 16 Sep 2015 21:23:55 GMT</pubDate>
         </item>
     </channel>
 </rss>

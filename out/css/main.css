@@ -503,7 +503,7 @@ nav.topnav .item:hover {
   color: #fff;
 }
 nav.topnav .item.active {
-  background: #4caf50;
+  background: #ffc107;
   color: #fff;
 }
 nav.topnav .item img {
@@ -559,11 +559,11 @@ a {
 .masthead {
   height: 100%;
   min-height: 400px;
-  background-image: url("/img/textures/diagmonds.png"), -webkit-linear-gradient(top, #2196f3 0%, #4caf50 100%);
-  background-image: url("/img/textures/diagmonds.png"), -moz-linear-gradient(top, #2196f3 0%, #4caf50 100%);
-  background-image: url("/img/textures/diagmonds.png"), -o-linear-gradient(top, #2196f3 0%, #4caf50 100%);
-  background-image: url("/img/textures/diagmonds.png"), -ms-linear-gradient(top, #2196f3 0%, #4caf50 100%);
-  background-image: url("/img/textures/diagmonds.png"), linear-gradient(to bottom, #2196f3 0%, #4caf50 100%);
+  background-image: url("/img/textures/diagmonds.png"), -webkit-linear-gradient(top, #cddc39 0%, #ffc107 100%);
+  background-image: url("/img/textures/diagmonds.png"), -moz-linear-gradient(top, #cddc39 0%, #ffc107 100%);
+  background-image: url("/img/textures/diagmonds.png"), -o-linear-gradient(top, #cddc39 0%, #ffc107 100%);
+  background-image: url("/img/textures/diagmonds.png"), -ms-linear-gradient(top, #cddc39 0%, #ffc107 100%);
+  background-image: url("/img/textures/diagmonds.png"), linear-gradient(to bottom, #cddc39 0%, #ffc107 100%);
 }
 .masthead h1 {
   margin-top: 0.5em;
@@ -589,7 +589,7 @@ a {
 .masthead .to:before {
   content: 'to';
   display: block;
-  background: #2196f3;
+  background: #cddc39;
   height: 36px;
   width: 36px;
   line-height: 36px;
@@ -610,13 +610,13 @@ a {
   position: relative;
 }
 .loc address {
-  background: #fff;
+  background: #212121;
   padding: 12px;
   margin-bottom: 0px;
   position: absolute;
   bottom: 0px;
   right: 0px;
-  border-left: solid 3px #2196f3;
+  border-left: solid 3px #cddc39;
 }
 .center {
   text-align: center;
@@ -717,4 +717,32 @@ a {
 .footer .site-info img {
   position: relative;
   top: -18px;
+}
+/* sponsors */
+.sponsor {
+  float: left;
+  clear: none;
+  width: 22.75%;
+  margin-left: 0;
+  margin-right: 3%;
+  background: #f44336;
+  height: 150px;
+  text-align: center;
+}
+.sponsor:nth-of-type(n) {
+  margin-right: 3%;
+  float: left;
+  clear: none;
+}
+.sponsor:nth-of-type(4n) {
+  margin-right: 0;
+  float: right;
+}
+.sponsor:nth-of-type(4n+1) {
+  clear: both;
+}
+.sponsor img {
+  margin-top: 5%;
+  max-width: 90%;
+  max-height: 90%;
 }

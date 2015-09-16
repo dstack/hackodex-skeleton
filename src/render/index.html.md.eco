@@ -20,7 +20,7 @@ layout: "default"
     </h4>
   </div>
 </div>
-<div class="loc" style="background: url(<%- @getMapImg() %>) 50% 50%;">
+<div class="loc inverted" style="background: url(<%- @getMapImg() %>) 50% 50%;">
   <address>
     <%- @event.location.display %>
   </address>
@@ -31,5 +31,6 @@ layout: "default"
     <h4>
       Thanks to our sponsors and partners below, we're able to have a <b>great</b> hackathon.
     </h4>
+    <%- @partial('sponsors') %>
   </div>
 </div>
