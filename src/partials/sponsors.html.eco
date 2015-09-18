@@ -1,3 +1,58 @@
-<a class="sponsor">
+<a class="sponsor center" href="https://www.github.com">
   <img alt="GitHub" src="https://assets-cdn.github.com/images/modules/contact/heartocat.png" />
 </a>
+
+<a class="sponsor center" href="https://www.digitalocean.com">
+  <img alt="Digital Ocean" src="https://www.digitalocean.com/assets/images/logos-badges/png/DO_Logo_Vertical_Blue-75e0d68b.png" />
+</a>
+
+<a class="sponsor center" href="https://www.basecamp">
+  <img alt="BaseCamp" src="https://3.basecamp-static.com/bcxhq/assets/press/basecamp-press-kit/logos/basecamp-full-standard-68ee9b7fe8d9ca5a9256b37b029f6fad.png" />
+</a>
+
+<a class="sponsor center" href="http://www.gruntjs.com">
+  <img alt="GruntJS" src="https://i.cloudup.com/bDkmXyEmr5.png" />
+</a>
+
+<a class="sponsor center" href="http://gulpjs.com/">
+  <img alt="GulpJS" src="https://raw.githubusercontent.com/gulpjs/artwork/master/gulp-2x.png" />
+</a>
+
+<a class="sponsor center" href="http://bower.io/">
+  <img alt="Bower" src="http://slara.github.io/startechconf-yeoman/slides/images/bower-logo.png" />
+</a>
+
+<a class="sponsor center" href="http://docpad.org/">
+  <img alt="Docpad" src="https://avatars3.githubusercontent.com/u/1865439?v=3&s=400" />
+</a>
+
+<a class="sponsor center" href="https://nodejs.org">
+  <img alt="NPMjs" src="https://nodejs.org/static/images/foundation/npmLogo.png" />
+</a>
+
+<% if @featured: %>
+<a class="btn">And More!</a>
+<% end %>
+
+<% if not @featured: %>
+
+<a class="sponsor center" href="http://drewstrickland.com">
+  Drew Strickland
+</a>
+<a class="sponsor center" href="http://frwda.org/">
+  F.R.D.W.A.
+</a>
+<a class="sponsor center" href="https://webpack.github.io/">
+  <img alt="Webpack" src="https://reactweek.com/images/webpack.png" />
+</a>
+<a class="sponsor center" href="https://www.atlassian.com/">
+  <img alt="Atlassian" src="http://nicolinux.org/blog/wp-content/uploads/2013/06/logoAtlassianPNG.png" />
+</a>
+<a class="sponsor center" href="https://bitbucket.org/">
+  <img alt="BitBucket" src="http://blog.poeditor.com/wp-content/uploads/2014/06/bitbucket-logo.png" />
+</a>
+<a class="sponsor center" href="http://yeoman.io/">
+  <img alt="Yoeman" src="http://www.hirez.io/images/yeoman.png" />
+</a>
+
+<% end %>

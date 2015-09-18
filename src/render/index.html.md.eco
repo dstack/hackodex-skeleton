@@ -20,6 +20,21 @@ layout: "default"
     </h4>
   </div>
 </div>
+<div class="content">
+  <div class="ct">
+    <h4>About this Eevent &hellip;</h4>
+    <p>
+      YOLO cold-pressed pork belly actually, literally Echo Park artisan twee fingerstache Shoreditch authentic four dollar toast ennui.  Banh mi farm-to-table iPhone, mumblecore Bushwick Wes Anderson plaid drinking vinegar Brooklyn irony.  Fixie shabby chic chillwave, mumblecore plaid McSweeney's bespoke vegan Godard locavore Truffaut.
+    </p>
+    <a href="/about.html">Read More &hellip;</a>
+
+    <h4>Fantastic Prizes!</h4>
+    <p>
+      We want you to bring your best, and so we are offering some really great prizes for this event.
+    </p>
+    <a href="/prizes.html">Prizes</a> | <a href="/rules.html">Rules</a> | <a href="/judging.html">Judging</a>
+  </div>
+</div>
 <div class="loc inverted" style="background: url(<%- @getMapImg() %>) 50% 50%;">
   <address>
     <%- @event.location.display %>
@@ -31,6 +46,6 @@ layout: "default"
     <h4>
       Thanks to our sponsors and partners below, we're able to have a <b>great</b> hackathon.
     </h4>
-    <%- @partial('sponsors') %>
+    <%- @partial('sponsors', {featured: true}) %>
   </div>
 </div>

@@ -464,6 +464,7 @@ nav.drawer {
   background: #212121;
   border-left: solid 1px #808080;
   z-index: 4;
+  display: none;
 }
 nav.drawer .item {
   display: block;
@@ -512,6 +513,35 @@ nav.topnav .menu-btn {
 nav.topnav .menu-btn:hover {
   background: rgba(255,255,255,0.15);
 }
+nav.topnav>div>ul {
+  display: inline;
+}
+nav.topnav>div>ul >li {
+  float: left;
+  position: relative;
+}
+nav.topnav>div>ul li ul {
+  display: none;
+  position: absolute;
+  top: 100%;
+  left: 0px;
+  background: rgba(0,0,0,0.65);
+  min-width: 200px;
+  margin: 0px;
+  padding: 0px;
+}
+nav.topnav>div>ul li ul li a {
+  display: block;
+  padding: 8px;
+  color: #a6a6a6;
+  border-bottom: solid 1px #595959;
+}
+nav.topnav>div>ul li ul li a:hover {
+  color: #fff;
+}
+nav.topnav>div>ul li:hover ul {
+  display: block;
+}
 nav.topnav .item {
   display: -webkit-box;
   display: -moz-box;
@@ -545,7 +575,7 @@ nav.topnav .item:hover {
   color: #fff;
 }
 nav.topnav .item.active {
-  background: #ffc107;
+  background: #673ab7;
   color: #fff;
 }
 nav.topnav .item img {
@@ -555,6 +585,7 @@ nav.topnav .logo {
   font-size: 1.5em;
   font-weight: 500;
   color: #fff;
+  float: left;
 }
 nav.topnav .logo img {
   position: relative;
@@ -577,7 +608,7 @@ a {
   min-width: 75px;
   text-align: center;
   padding: 0px 16px;
-  background: #cddc39;
+  background: #e91e63;
 }
 .cf {
   zoom: 1;
@@ -613,11 +644,11 @@ a {
 .masthead {
   height: 100%;
   min-height: 400px;
-  background-image: url("/img/textures/diagmonds.png"), -webkit-linear-gradient(top, #cddc39 0%, #ffc107 100%);
-  background-image: url("/img/textures/diagmonds.png"), -moz-linear-gradient(top, #cddc39 0%, #ffc107 100%);
-  background-image: url("/img/textures/diagmonds.png"), -o-linear-gradient(top, #cddc39 0%, #ffc107 100%);
-  background-image: url("/img/textures/diagmonds.png"), -ms-linear-gradient(top, #cddc39 0%, #ffc107 100%);
-  background-image: url("/img/textures/diagmonds.png"), linear-gradient(to bottom, #cddc39 0%, #ffc107 100%);
+  background-image: url("/img/textures/diagmonds.png"), -webkit-linear-gradient(top, #e91e63 0%, #673ab7 100%);
+  background-image: url("/img/textures/diagmonds.png"), -moz-linear-gradient(top, #e91e63 0%, #673ab7 100%);
+  background-image: url("/img/textures/diagmonds.png"), -o-linear-gradient(top, #e91e63 0%, #673ab7 100%);
+  background-image: url("/img/textures/diagmonds.png"), -ms-linear-gradient(top, #e91e63 0%, #673ab7 100%);
+  background-image: url("/img/textures/diagmonds.png"), linear-gradient(to bottom, #e91e63 0%, #673ab7 100%);
 }
 .masthead h1 {
   margin-top: 0.5em;
@@ -642,7 +673,7 @@ a {
 .masthead .to:before {
   content: 'to';
   display: block;
-  background: #cddc39;
+  background: #e91e63;
   height: 36px;
   width: 36px;
   line-height: 36px;
@@ -669,7 +700,7 @@ a {
   position: absolute;
   bottom: 0px;
   right: 0px;
-  border-left: solid 3px #cddc39;
+  border-left: solid 3px #e91e63;
 }
 .center {
   text-align: center;
@@ -778,9 +809,15 @@ a {
   width: 22.75%;
   margin-left: 0;
   margin-right: 3%;
-  background: #f44336;
   height: 150px;
   text-align: center;
+  text-transform: uppercase;
+  color: #212121;
+  -webkit-transition: color 0.25s ease;
+  -moz-transition: color 0.25s ease;
+  -o-transition: color 0.25s ease;
+  -ms-transition: color 0.25s ease;
+  transition: color 0.25s ease;
 }
 .sponsor:nth-of-type(n) {
   margin-right: 3%;
@@ -794,8 +831,18 @@ a {
 .sponsor:nth-of-type(4n+1) {
   clear: both;
 }
+.sponsor:hover {
+  color: #e91e63;
+}
 .sponsor img {
-  margin-top: 5%;
   max-width: 90%;
   max-height: 90%;
+}
+@media screen and (max-width: 500px) {
+  nav.topnav .logo {
+    font-size: 0px;
+  }
+  nav.topnav .item {
+    padding: 0px 8px;
+  }
 }

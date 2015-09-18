@@ -1,8 +1,21 @@
-<a class="item" href="/about.html">About</a>
-<a class="item" href="#">Rules</a>
-<a class="item" href="#">Agenda</a>
-<a class="item" href="#">Prizes</a>
-
-<a class="item" href="#">Projects</a>
-<a class="item" href="#">Teams</a>
-<a class="item" href="#">Ideas</a>
+<ul>
+  <li>
+    <a class="item" href="#" onclick="return false;">About <i class="fa fa-caret-down"></i></a>
+    <ul>
+      <li><a href="/about.html">The Event</a></li>
+      <li><a href="/rules.html">Rules</a></li>
+      <li><a href="/prizes.html">Prizes</a></li>
+      <li><a href="/judging.html">Judging</a></li>
+    </ul>
+  </li>
+  <li><a class="item" href="/agenda.html">Agenda</a></li>
+  <li>
+    <a class="item" href="#" onclick="return false;">Info <i class="fa fa-caret-down"></i></a>
+    <ul>
+      <li><a href="#">Teams</a></li>
+      <li><a href="#">Projects</a></li>
+      <li><a href="#">Ideas</a></li>
+    </ul>
+  </li>
+  <li><a class="item" href="/contact.html">Contact</a></li>
+</ul>

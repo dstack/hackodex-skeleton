@@ -1,10 +1,11 @@
 <!doctpye html>
 <html>
   <head>
-    <title>Welcome!</title>
+    <title>Welcome! | Hackodex</title>
     <meta charset="utf-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0">
+    <link rel="icon" type="image/png" href="/img/logo-sm.png" />
     <link rel="stylesheet" href="/css/main.css" />
     <link rel="stylesheet" href="/css/font-awesome.min.css" />
     <script src="/js/vendor/jquery-2.1.4.min.js"></script>
@@ -13,19 +14,56 @@
     <nav class="topnav inverted">
       <div class="ct">
         <a href="/" class="header item active logo"><img class="logo" src="/img/logo-sm.png" /> Hackodex</a>
-        <a href="#" class="btn menu-btn"><i class="fa fa-bars"></i> Menu</a>
 
+        <ul>
+  <li>
+    <a class="item" href="#" onclick="return false;">About <i class="fa fa-caret-down"></i></a>
+    <ul>
+      <li><a href="/about.html">The Event</a></li>
+      <li><a href="/rules.html">Rules</a></li>
+      <li><a href="/prizes.html">Prizes</a></li>
+      <li><a href="/judging.html">Judging</a></li>
+    </ul>
+  </li>
+  <li><a class="item" href="/agenda.html">Agenda</a></li>
+  <li>
+    <a class="item" href="#" onclick="return false;">Info <i class="fa fa-caret-down"></i></a>
+    <ul>
+      <li><a href="#">Teams</a></li>
+      <li><a href="#">Projects</a></li>
+      <li><a href="#">Ideas</a></li>
+    </ul>
+  </li>
+  <li><a class="item" href="/contact.html">Contact</a></li>
+</ul>
+
+        <!--
+        <a href="#" class="btn menu-btn"><i class="fa fa-bars"></i> Menu</a>
+        -->
       </div>
     </nav>
     <nav class="drawer">
-      <a class="item" href="/about.html">About</a>
-<a class="item" href="#">Rules</a>
-<a class="item" href="#">Agenda</a>
-<a class="item" href="#">Prizes</a>
-
-<a class="item" href="#">Projects</a>
-<a class="item" href="#">Teams</a>
-<a class="item" href="#">Ideas</a>
+      <ul>
+  <li>
+    <a class="item" href="#" onclick="return false;">About <i class="fa fa-caret-down"></i></a>
+    <ul>
+      <li><a href="/about.html">The Event</a></li>
+      <li><a href="/rules.html">Rules</a></li>
+      <li><a href="/prizes.html">Prizes</a></li>
+      <li><a href="/judging.html">Judging</a></li>
+    </ul>
+  </li>
+  <li><a class="item" href="/agenda.html">Agenda</a></li>
+  <li>
+    <a class="item" href="#" onclick="return false;">Info <i class="fa fa-caret-down"></i></a>
+    <ul>
+      <li><a href="#">Teams</a></li>
+      <li><a href="#">Projects</a></li>
+      <li><a href="#">Ideas</a></li>
+    </ul>
+  </li>
+  <li><a class="item" href="/contact.html">Contact</a></li>
+</ul>
 
     </nav>
     <div class="masthead center inverted">
@@ -46,6 +84,21 @@
     </h4>
   </div>
 </div>
+<div class="content">
+  <div class="ct">
+    <h4>About this Eevent &hellip;</h4>
+    <p>
+      YOLO cold-pressed pork belly actually, literally Echo Park artisan twee fingerstache Shoreditch authentic four dollar toast ennui.  Banh mi farm-to-table iPhone, mumblecore Bushwick Wes Anderson plaid drinking vinegar Brooklyn irony.  Fixie shabby chic chillwave, mumblecore plaid McSweeney&#39;s bespoke vegan Godard locavore Truffaut.
+    </p>
+    <a href="/about.html">Read More &hellip;</a>
+
+    <h4>Fantastic Prizes!</h4>
+    <p>
+      We want you to bring your best, and so we are offering some really great prizes for this event.
+    </p>
+    <a href="/prizes.html">Prizes</a> | <a href="/rules.html">Rules</a> | <a href="/judging.html">Judging</a>
+  </div>
+</div>
 <div class="loc inverted" style="background: url(https://maps.googleapis.com/maps/api/staticmap?center=2154+E+Commons+Ave,Centennial,CO,80122&markers=color:green%7Clabel:P%7C2154+E+Commons+Ave,Centennial,CO,80122&zoom=13&scale=2&size=1280x250&maptype=roadmap) 50% 50%;">
   <address>
     <b>Pearson eCollege Headquarters</b><br/>2154 E. Commons Avenue, Suite 4000,<br/>Centennial, CO 80122
@@ -57,9 +110,43 @@
     <h4>
       Thanks to our sponsors and partners below, we&#39;re able to have a <b>great</b> hackathon.
     </h4>
-    <a class="sponsor">
+    <a class="sponsor center" href="https://www.github.com">
   <img alt="GitHub" src="https://assets-cdn.github.com/images/modules/contact/heartocat.png" />
 </a>
+
+<a class="sponsor center" href="https://www.digitalocean.com">
+  <img alt="Digital Ocean" src="https://www.digitalocean.com/assets/images/logos-badges/png/DO_Logo_Vertical_Blue-75e0d68b.png" />
+</a>
+
+<a class="sponsor center" href="https://www.basecamp">
+  <img alt="BaseCamp" src="https://3.basecamp-static.com/bcxhq/assets/press/basecamp-press-kit/logos/basecamp-full-standard-68ee9b7fe8d9ca5a9256b37b029f6fad.png" />
+</a>
+
+<a class="sponsor center" href="http://www.gruntjs.com">
+  <img alt="GruntJS" src="https://i.cloudup.com/bDkmXyEmr5.png" />
+</a>
+
+<a class="sponsor center" href="http://gulpjs.com/">
+  <img alt="GulpJS" src="https://raw.githubusercontent.com/gulpjs/artwork/master/gulp-2x.png" />
+</a>
+
+<a class="sponsor center" href="http://bower.io/">
+  <img alt="Bower" src="http://slara.github.io/startechconf-yeoman/slides/images/bower-logo.png" />
+</a>
+
+<a class="sponsor center" href="http://docpad.org/">
+  <img alt="Docpad" src="https://avatars3.githubusercontent.com/u/1865439?v=3&s=400" />
+</a>
+
+<a class="sponsor center" href="https://nodejs.org">
+  <img alt="NPMjs" src="https://nodejs.org/static/images/foundation/npmLogo.png" />
+</a>
+
+
+<a class="btn">And More!</a>
+
+
+
 
   </div>
 </div>

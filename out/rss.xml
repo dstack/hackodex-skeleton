@@ -5,23 +5,9 @@
         <description><![CDATA[Untitled RSS Feed]]></description>
         <link>http://127.0.0.1:9778</link>
         <generator>RSS for Node</generator>
-        <lastBuildDate>Wed, 16 Sep 2015 22:06:33 GMT</lastBuildDate>
+        <lastBuildDate>Thu, 17 Sep 2015 18:45:13 GMT</lastBuildDate>
         <atom:link href="http://127.0.0.1:9778/rss.xml" rel="self" type="application/rss+xml"/>
-        <pubDate>Wed, 16 Sep 2015 22:06:31 GMT</pubDate>
-        <item>
-            <title><![CDATA[About]]></title>
-            <description><![CDATA[<h1 id="semantic-ui-fixed-template">Semantic UI Fixed Template</h1>
-<p>This is a basic fixed menu template using fixed size containers.</p>
-<p>A text container is used for the main container, which is useful for single column layouts</p>
-<p>YOLO cold-pressed pork belly actually, literally Echo Park artisan twee fingerstache Shoreditch authentic four dollar toast ennui.  Banh mi farm-to-table iPhone, mumblecore Bushwick Wes Anderson plaid drinking vinegar Brooklyn irony.  Fixie shabby chic chillwave, mumblecore plaid McSweeney&#39;s bespoke vegan Godard locavore Truffaut.  Truffaut cliche leggings, art party stumptown photo booth semiotics Thundercats dreamcatcher readymade irony Schlitz four dollar toast.  Retro fashion axe pork belly Intelligentsia XOXO, mustache semiotics pour-over.  Lo-fi Vice iPhone, kitsch Neutra tote bag biodiesel Echo Park selvage.  Drinking vinegar American Apparel Shoreditch tilde tattooed bespoke, kogi aesthetic cold-pressed mlkshk.</p>
-<p>Polaroid American Apparel heirloom fanny pack deep v High Life.  Selvage banjo try-hard listicle bitters, paleo semiotics ugh bespoke fingerstache chambray kitsch.  Cold-pressed cred forage, keffiyeh cray Schlitz mlkshk try-hard mumblecore hashtag pork belly listicle tofu vinyl.  Whatever banjo Helvetica listicle, farm-to-table small batch Kickstarter.  Kogi Pitchfork health goth fashion axe selvage, Godard dreamcatcher Williamsburg.  Ennui banjo Thundercats farm-to-table chillwave gentrify.  Four loko Banksy kitsch, cray fashion axe distillery biodiesel post-ironic pug tattooed shabby chic mumblecore literally.</p>
-<p>Banh mi salvia fanny pack, Shoreditch kitsch pour-over crucifix single-origin coffee farm-to-table squid PBR bespoke vegan tattooed.  Bushwick listicle Echo Park plaid, ethical bitters literally church-key.  Retro viral letterpress before they sold out Truffaut.  Post-ironic meggings Kickstarter locavore synth.  Artisan next level tote bag twee, locavore PBR scenester XOXO Neutra Tumblr disrupt deep v chia mlkshk.  Sartorial stumptown health goth, crucifix Thundercats bicycle rights normcore XOXO leggings.  Drinking vinegar forage cray, slow-carb polaroid meh blog flexitarian.</p>
-<p>Disrupt normcore four dollar toast DIY Helvetica fap.  Cliche mumblecore Etsy, disrupt food truck single-origin coffee photo booth.  Polaroid salvia pop-up, before they sold out Marfa street art distillery cred XOXO normcore chambray Kickstarter fap cold-pressed jean shorts.  Sriracha Thundercats aesthetic Bushwick Brooklyn, quinoa twee bitters Etsy umami shabby chic Pinterest distillery iPhone tattooed.  Irony bespoke retro +1, deep v cred fanny pack cardigan master cleanse vegan gentrify tousled.  Cred messenger bag try-hard, food truck lomo sustainable Marfa meditation wolf viral chambray disrupt street art.  Chambray shabby chic art party Odd Future synth migas, butcher ennui XOXO.</p>
-]]></description>
-            <link>http://127.0.0.1:9778/about.html</link>
-            <guid isPermaLink="true">http://127.0.0.1:9778/about.html</guid>
-            <pubDate>Wed, 26 Aug 2015 16:14:11 GMT</pubDate>
-        </item>
+        <pubDate>Thu, 17 Sep 2015 17:46:40 GMT</pubDate>
         <item>
             <title><![CDATA[Welcome!]]></title>
             <description><![CDATA[<div class="masthead center inverted">
@@ -42,6 +28,21 @@
     </h4>
   </div>
 </div>
+<div class="content">
+  <div class="ct">
+    <h4>About this Eevent &hellip;</h4>
+    <p>
+      YOLO cold-pressed pork belly actually, literally Echo Park artisan twee fingerstache Shoreditch authentic four dollar toast ennui.  Banh mi farm-to-table iPhone, mumblecore Bushwick Wes Anderson plaid drinking vinegar Brooklyn irony.  Fixie shabby chic chillwave, mumblecore plaid McSweeney&#39;s bespoke vegan Godard locavore Truffaut.
+    </p>
+    <a href="/about.html">Read More &hellip;</a>
+
+    <h4>Fantastic Prizes!</h4>
+    <p>
+      We want you to bring your best, and so we are offering some really great prizes for this event.
+    </p>
+    <a href="/prizes.html">Prizes</a> | <a href="/rules.html">Rules</a> | <a href="/judging.html">Judging</a>
+  </div>
+</div>
 <div class="loc inverted" style="background: url(https://maps.googleapis.com/maps/api/staticmap?center=2154+E+Commons+Ave,Centennial,CO,80122&markers=color:green%7Clabel:P%7C2154+E+Commons+Ave,Centennial,CO,80122&zoom=13&scale=2&size=1280x250&maptype=roadmap) 50% 50%;">
   <address>
     <b>Pearson eCollege Headquarters</b><br/>2154 E. Commons Avenue, Suite 4000,<br/>Centennial, CO 80122
@@ -53,15 +54,184 @@
     <h4>
       Thanks to our sponsors and partners below, we&#39;re able to have a <b>great</b> hackathon.
     </h4>
-    <a class="sponsor">
+    <a class="sponsor center" href="https://www.github.com">
   <img alt="GitHub" src="https://assets-cdn.github.com/images/modules/contact/heartocat.png" />
 </a>
+
+<a class="sponsor center" href="https://www.digitalocean.com">
+  <img alt="Digital Ocean" src="https://www.digitalocean.com/assets/images/logos-badges/png/DO_Logo_Vertical_Blue-75e0d68b.png" />
+</a>
+
+<a class="sponsor center" href="https://www.basecamp">
+  <img alt="BaseCamp" src="https://3.basecamp-static.com/bcxhq/assets/press/basecamp-press-kit/logos/basecamp-full-standard-68ee9b7fe8d9ca5a9256b37b029f6fad.png" />
+</a>
+
+<a class="sponsor center" href="http://www.gruntjs.com">
+  <img alt="GruntJS" src="https://i.cloudup.com/bDkmXyEmr5.png" />
+</a>
+
+<a class="sponsor center" href="http://gulpjs.com/">
+  <img alt="GulpJS" src="https://raw.githubusercontent.com/gulpjs/artwork/master/gulp-2x.png" />
+</a>
+
+<a class="sponsor center" href="http://bower.io/">
+  <img alt="Bower" src="http://slara.github.io/startechconf-yeoman/slides/images/bower-logo.png" />
+</a>
+
+<a class="sponsor center" href="http://docpad.org/">
+  <img alt="Docpad" src="https://avatars3.githubusercontent.com/u/1865439?v=3&s=400" />
+</a>
+
+<a class="sponsor center" href="https://nodejs.org">
+  <img alt="NPMjs" src="https://nodejs.org/static/images/foundation/npmLogo.png" />
+</a>
+
+
+<a class="btn">And More!</a>
+
+
+
 
   </div>
 </div>]]></description>
             <link>http://127.0.0.1:9778/index.html</link>
             <guid isPermaLink="true">http://127.0.0.1:9778/index.html</guid>
-            <pubDate>Wed, 16 Sep 2015 22:06:18 GMT</pubDate>
+            <pubDate>Thu, 17 Sep 2015 17:21:57 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[We <i class="fa fa-heart red"></i> Our Sponsors]]></title>
+            <description><![CDATA[<h4 id="thanks-to-our-sponsors-and-partners-below-we-re-able-to-have-a-b-great-b-hackathon-">Thanks to our sponsors and partners below, we&#39;re able to have a <b>great</b> hackathon.</h4>
+<p><a class="sponsor center" href="https://www.github.com">
+  <img alt="GitHub" src="https://assets-cdn.github.com/images/modules/contact/heartocat.png" />
+</a>
+
+<a class="sponsor center" href="https://www.digitalocean.com">
+  <img alt="Digital Ocean" src="https://www.digitalocean.com/assets/images/logos-badges/png/DO_Logo_Vertical_Blue-75e0d68b.png" />
+</a>
+
+<a class="sponsor center" href="https://www.basecamp">
+  <img alt="BaseCamp" src="https://3.basecamp-static.com/bcxhq/assets/press/basecamp-press-kit/logos/basecamp-full-standard-68ee9b7fe8d9ca5a9256b37b029f6fad.png" />
+</a>
+
+<a class="sponsor center" href="http://www.gruntjs.com">
+  <img alt="GruntJS" src="https://i.cloudup.com/bDkmXyEmr5.png" />
+</a>
+
+<a class="sponsor center" href="http://gulpjs.com/">
+  <img alt="GulpJS" src="https://raw.githubusercontent.com/gulpjs/artwork/master/gulp-2x.png" />
+</a>
+
+<a class="sponsor center" href="http://bower.io/">
+  <img alt="Bower" src="http://slara.github.io/startechconf-yeoman/slides/images/bower-logo.png" />
+</a>
+
+<a class="sponsor center" href="http://docpad.org/">
+  <img alt="Docpad" src="https://avatars3.githubusercontent.com/u/1865439?v=3&s=400" />
+</a>
+
+<a class="sponsor center" href="https://nodejs.org">
+  <img alt="NPMjs" src="https://nodejs.org/static/images/foundation/npmLogo.png" />
+</a>
+
+
+
+
+
+<a class="sponsor center" href="http://drewstrickland.com">
+  Drew Strickland
+</a>
+<a class="sponsor center" href="http://frwda.org/">
+  F.R.D.W.A.
+</a>
+<a class="sponsor center" href="https://webpack.github.io/">
+  <img alt="Webpack" src="https://reactweek.com/images/webpack.png" />
+</a>
+<a class="sponsor center" href="https://www.atlassian.com/">
+  <img alt="Atlassian" src="http://nicolinux.org/blog/wp-content/uploads/2013/06/logoAtlassianPNG.png" />
+</a>
+<a class="sponsor center" href="https://bitbucket.org/">
+  <img alt="BitBucket" src="http://blog.poeditor.com/wp-content/uploads/2014/06/bitbucket-logo.png" />
+</a>
+<a class="sponsor center" href="http://yeoman.io/">
+  <img alt="Yoeman" src="http://www.hirez.io/images/yeoman.png" />
+</a>
+
+
+</p>
+]]></description>
+            <link>http://127.0.0.1:9778/sponsors.html</link>
+            <guid isPermaLink="true">http://127.0.0.1:9778/sponsors.html</guid>
+            <pubDate>Thu, 17 Sep 2015 17:57:51 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[About]]></title>
+            <description><![CDATA[<h1 id="semantic-ui-fixed-template">Semantic UI Fixed Template</h1>
+<p>This is a basic fixed menu template using fixed size containers.</p>
+<p>A text container is used for the main container, which is useful for single column layouts</p>
+<p>YOLO cold-pressed pork belly actually, literally Echo Park artisan twee fingerstache Shoreditch authentic four dollar toast ennui.  Banh mi farm-to-table iPhone, mumblecore Bushwick Wes Anderson plaid drinking vinegar Brooklyn irony.  Fixie shabby chic chillwave, mumblecore plaid McSweeney&#39;s bespoke vegan Godard locavore Truffaut.  Truffaut cliche leggings, art party stumptown photo booth semiotics Thundercats dreamcatcher readymade irony Schlitz four dollar toast.  Retro fashion axe pork belly Intelligentsia XOXO, mustache semiotics pour-over.  Lo-fi Vice iPhone, kitsch Neutra tote bag biodiesel Echo Park selvage.  Drinking vinegar American Apparel Shoreditch tilde tattooed bespoke, kogi aesthetic cold-pressed mlkshk.</p>
+<p>Polaroid American Apparel heirloom fanny pack deep v High Life.  Selvage banjo try-hard listicle bitters, paleo semiotics ugh bespoke fingerstache chambray kitsch.  Cold-pressed cred forage, keffiyeh cray Schlitz mlkshk try-hard mumblecore hashtag pork belly listicle tofu vinyl.  Whatever banjo Helvetica listicle, farm-to-table small batch Kickstarter.  Kogi Pitchfork health goth fashion axe selvage, Godard dreamcatcher Williamsburg.  Ennui banjo Thundercats farm-to-table chillwave gentrify.  Four loko Banksy kitsch, cray fashion axe distillery biodiesel post-ironic pug tattooed shabby chic mumblecore literally.</p>
+<p>Banh mi salvia fanny pack, Shoreditch kitsch pour-over crucifix single-origin coffee farm-to-table squid PBR bespoke vegan tattooed.  Bushwick listicle Echo Park plaid, ethical bitters literally church-key.  Retro viral letterpress before they sold out Truffaut.  Post-ironic meggings Kickstarter locavore synth.  Artisan next level tote bag twee, locavore PBR scenester XOXO Neutra Tumblr disrupt deep v chia mlkshk.  Sartorial stumptown health goth, crucifix Thundercats bicycle rights normcore XOXO leggings.  Drinking vinegar forage cray, slow-carb polaroid meh blog flexitarian.</p>
+<p>Disrupt normcore four dollar toast DIY Helvetica fap.  Cliche mumblecore Etsy, disrupt food truck single-origin coffee photo booth.  Polaroid salvia pop-up, before they sold out Marfa street art distillery cred XOXO normcore chambray Kickstarter fap cold-pressed jean shorts.  Sriracha Thundercats aesthetic Bushwick Brooklyn, quinoa twee bitters Etsy umami shabby chic Pinterest distillery iPhone tattooed.  Irony bespoke retro +1, deep v cred fanny pack cardigan master cleanse vegan gentrify tousled.  Cred messenger bag try-hard, food truck lomo sustainable Marfa meditation wolf viral chambray disrupt street art.  Chambray shabby chic art party Odd Future synth migas, butcher ennui XOXO.</p>
+]]></description>
+            <link>http://127.0.0.1:9778/rules.html</link>
+            <guid isPermaLink="true">http://127.0.0.1:9778/rules.html</guid>
+            <pubDate>Thu, 17 Sep 2015 17:25:28 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[About]]></title>
+            <description><![CDATA[<h1 id="semantic-ui-fixed-template">Semantic UI Fixed Template</h1>
+<p>This is a basic fixed menu template using fixed size containers.</p>
+<p>A text container is used for the main container, which is useful for single column layouts</p>
+<p>YOLO cold-pressed pork belly actually, literally Echo Park artisan twee fingerstache Shoreditch authentic four dollar toast ennui.  Banh mi farm-to-table iPhone, mumblecore Bushwick Wes Anderson plaid drinking vinegar Brooklyn irony.  Fixie shabby chic chillwave, mumblecore plaid McSweeney&#39;s bespoke vegan Godard locavore Truffaut.  Truffaut cliche leggings, art party stumptown photo booth semiotics Thundercats dreamcatcher readymade irony Schlitz four dollar toast.  Retro fashion axe pork belly Intelligentsia XOXO, mustache semiotics pour-over.  Lo-fi Vice iPhone, kitsch Neutra tote bag biodiesel Echo Park selvage.  Drinking vinegar American Apparel Shoreditch tilde tattooed bespoke, kogi aesthetic cold-pressed mlkshk.</p>
+<p>Polaroid American Apparel heirloom fanny pack deep v High Life.  Selvage banjo try-hard listicle bitters, paleo semiotics ugh bespoke fingerstache chambray kitsch.  Cold-pressed cred forage, keffiyeh cray Schlitz mlkshk try-hard mumblecore hashtag pork belly listicle tofu vinyl.  Whatever banjo Helvetica listicle, farm-to-table small batch Kickstarter.  Kogi Pitchfork health goth fashion axe selvage, Godard dreamcatcher Williamsburg.  Ennui banjo Thundercats farm-to-table chillwave gentrify.  Four loko Banksy kitsch, cray fashion axe distillery biodiesel post-ironic pug tattooed shabby chic mumblecore literally.</p>
+<p>Banh mi salvia fanny pack, Shoreditch kitsch pour-over crucifix single-origin coffee farm-to-table squid PBR bespoke vegan tattooed.  Bushwick listicle Echo Park plaid, ethical bitters literally church-key.  Retro viral letterpress before they sold out Truffaut.  Post-ironic meggings Kickstarter locavore synth.  Artisan next level tote bag twee, locavore PBR scenester XOXO Neutra Tumblr disrupt deep v chia mlkshk.  Sartorial stumptown health goth, crucifix Thundercats bicycle rights normcore XOXO leggings.  Drinking vinegar forage cray, slow-carb polaroid meh blog flexitarian.</p>
+<p>Disrupt normcore four dollar toast DIY Helvetica fap.  Cliche mumblecore Etsy, disrupt food truck single-origin coffee photo booth.  Polaroid salvia pop-up, before they sold out Marfa street art distillery cred XOXO normcore chambray Kickstarter fap cold-pressed jean shorts.  Sriracha Thundercats aesthetic Bushwick Brooklyn, quinoa twee bitters Etsy umami shabby chic Pinterest distillery iPhone tattooed.  Irony bespoke retro +1, deep v cred fanny pack cardigan master cleanse vegan gentrify tousled.  Cred messenger bag try-hard, food truck lomo sustainable Marfa meditation wolf viral chambray disrupt street art.  Chambray shabby chic art party Odd Future synth migas, butcher ennui XOXO.</p>
+]]></description>
+            <link>http://127.0.0.1:9778/prizes.html</link>
+            <guid isPermaLink="true">http://127.0.0.1:9778/prizes.html</guid>
+            <pubDate>Thu, 17 Sep 2015 17:25:18 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[About]]></title>
+            <description><![CDATA[<h1 id="semantic-ui-fixed-template">Semantic UI Fixed Template</h1>
+<p>This is a basic fixed menu template using fixed size containers.</p>
+<p>A text container is used for the main container, which is useful for single column layouts</p>
+<p>YOLO cold-pressed pork belly actually, literally Echo Park artisan twee fingerstache Shoreditch authentic four dollar toast ennui.  Banh mi farm-to-table iPhone, mumblecore Bushwick Wes Anderson plaid drinking vinegar Brooklyn irony.  Fixie shabby chic chillwave, mumblecore plaid McSweeney&#39;s bespoke vegan Godard locavore Truffaut.  Truffaut cliche leggings, art party stumptown photo booth semiotics Thundercats dreamcatcher readymade irony Schlitz four dollar toast.  Retro fashion axe pork belly Intelligentsia XOXO, mustache semiotics pour-over.  Lo-fi Vice iPhone, kitsch Neutra tote bag biodiesel Echo Park selvage.  Drinking vinegar American Apparel Shoreditch tilde tattooed bespoke, kogi aesthetic cold-pressed mlkshk.</p>
+<p>Polaroid American Apparel heirloom fanny pack deep v High Life.  Selvage banjo try-hard listicle bitters, paleo semiotics ugh bespoke fingerstache chambray kitsch.  Cold-pressed cred forage, keffiyeh cray Schlitz mlkshk try-hard mumblecore hashtag pork belly listicle tofu vinyl.  Whatever banjo Helvetica listicle, farm-to-table small batch Kickstarter.  Kogi Pitchfork health goth fashion axe selvage, Godard dreamcatcher Williamsburg.  Ennui banjo Thundercats farm-to-table chillwave gentrify.  Four loko Banksy kitsch, cray fashion axe distillery biodiesel post-ironic pug tattooed shabby chic mumblecore literally.</p>
+<p>Banh mi salvia fanny pack, Shoreditch kitsch pour-over crucifix single-origin coffee farm-to-table squid PBR bespoke vegan tattooed.  Bushwick listicle Echo Park plaid, ethical bitters literally church-key.  Retro viral letterpress before they sold out Truffaut.  Post-ironic meggings Kickstarter locavore synth.  Artisan next level tote bag twee, locavore PBR scenester XOXO Neutra Tumblr disrupt deep v chia mlkshk.  Sartorial stumptown health goth, crucifix Thundercats bicycle rights normcore XOXO leggings.  Drinking vinegar forage cray, slow-carb polaroid meh blog flexitarian.</p>
+<p>Disrupt normcore four dollar toast DIY Helvetica fap.  Cliche mumblecore Etsy, disrupt food truck single-origin coffee photo booth.  Polaroid salvia pop-up, before they sold out Marfa street art distillery cred XOXO normcore chambray Kickstarter fap cold-pressed jean shorts.  Sriracha Thundercats aesthetic Bushwick Brooklyn, quinoa twee bitters Etsy umami shabby chic Pinterest distillery iPhone tattooed.  Irony bespoke retro +1, deep v cred fanny pack cardigan master cleanse vegan gentrify tousled.  Cred messenger bag try-hard, food truck lomo sustainable Marfa meditation wolf viral chambray disrupt street art.  Chambray shabby chic art party Odd Future synth migas, butcher ennui XOXO.</p>
+]]></description>
+            <link>http://127.0.0.1:9778/judging.html</link>
+            <guid isPermaLink="true">http://127.0.0.1:9778/judging.html</guid>
+            <pubDate>Thu, 17 Sep 2015 17:25:50 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[Agenda]]></title>
+            <description><![CDATA[<h1 id="semantic-ui-fixed-template">Semantic UI Fixed Template</h1>
+<p>This is a basic fixed menu template using fixed size containers.</p>
+<p>A text container is used for the main container, which is useful for single column layouts</p>
+<p>YOLO cold-pressed pork belly actually, literally Echo Park artisan twee fingerstache Shoreditch authentic four dollar toast ennui.  Banh mi farm-to-table iPhone, mumblecore Bushwick Wes Anderson plaid drinking vinegar Brooklyn irony.  Fixie shabby chic chillwave, mumblecore plaid McSweeney&#39;s bespoke vegan Godard locavore Truffaut.  Truffaut cliche leggings, art party stumptown photo booth semiotics Thundercats dreamcatcher readymade irony Schlitz four dollar toast.  Retro fashion axe pork belly Intelligentsia XOXO, mustache semiotics pour-over.  Lo-fi Vice iPhone, kitsch Neutra tote bag biodiesel Echo Park selvage.  Drinking vinegar American Apparel Shoreditch tilde tattooed bespoke, kogi aesthetic cold-pressed mlkshk.</p>
+<p>Polaroid American Apparel heirloom fanny pack deep v High Life.  Selvage banjo try-hard listicle bitters, paleo semiotics ugh bespoke fingerstache chambray kitsch.  Cold-pressed cred forage, keffiyeh cray Schlitz mlkshk try-hard mumblecore hashtag pork belly listicle tofu vinyl.  Whatever banjo Helvetica listicle, farm-to-table small batch Kickstarter.  Kogi Pitchfork health goth fashion axe selvage, Godard dreamcatcher Williamsburg.  Ennui banjo Thundercats farm-to-table chillwave gentrify.  Four loko Banksy kitsch, cray fashion axe distillery biodiesel post-ironic pug tattooed shabby chic mumblecore literally.</p>
+<p>Banh mi salvia fanny pack, Shoreditch kitsch pour-over crucifix single-origin coffee farm-to-table squid PBR bespoke vegan tattooed.  Bushwick listicle Echo Park plaid, ethical bitters literally church-key.  Retro viral letterpress before they sold out Truffaut.  Post-ironic meggings Kickstarter locavore synth.  Artisan next level tote bag twee, locavore PBR scenester XOXO Neutra Tumblr disrupt deep v chia mlkshk.  Sartorial stumptown health goth, crucifix Thundercats bicycle rights normcore XOXO leggings.  Drinking vinegar forage cray, slow-carb polaroid meh blog flexitarian.</p>
+<p>Disrupt normcore four dollar toast DIY Helvetica fap.  Cliche mumblecore Etsy, disrupt food truck single-origin coffee photo booth.  Polaroid salvia pop-up, before they sold out Marfa street art distillery cred XOXO normcore chambray Kickstarter fap cold-pressed jean shorts.  Sriracha Thundercats aesthetic Bushwick Brooklyn, quinoa twee bitters Etsy umami shabby chic Pinterest distillery iPhone tattooed.  Irony bespoke retro +1, deep v cred fanny pack cardigan master cleanse vegan gentrify tousled.  Cred messenger bag try-hard, food truck lomo sustainable Marfa meditation wolf viral chambray disrupt street art.  Chambray shabby chic art party Odd Future synth migas, butcher ennui XOXO.</p>
+]]></description>
+            <link>http://127.0.0.1:9778/agenda.html</link>
+            <guid isPermaLink="true">http://127.0.0.1:9778/agenda.html</guid>
+            <pubDate>Thu, 17 Sep 2015 17:41:26 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[About]]></title>
+            <description><![CDATA[<h1 id="semantic-ui-fixed-template">Semantic UI Fixed Template</h1>
+<p>This is a basic fixed menu template using fixed size containers.</p>
+<p>A text container is used for the main container, which is useful for single column layouts</p>
+<p>YOLO cold-pressed pork belly actually, literally Echo Park artisan twee fingerstache Shoreditch authentic four dollar toast ennui.  Banh mi farm-to-table iPhone, mumblecore Bushwick Wes Anderson plaid drinking vinegar Brooklyn irony.  Fixie shabby chic chillwave, mumblecore plaid McSweeney&#39;s bespoke vegan Godard locavore Truffaut.  Truffaut cliche leggings, art party stumptown photo booth semiotics Thundercats dreamcatcher readymade irony Schlitz four dollar toast.  Retro fashion axe pork belly Intelligentsia XOXO, mustache semiotics pour-over.  Lo-fi Vice iPhone, kitsch Neutra tote bag biodiesel Echo Park selvage.  Drinking vinegar American Apparel Shoreditch tilde tattooed bespoke, kogi aesthetic cold-pressed mlkshk.</p>
+<p>Polaroid American Apparel heirloom fanny pack deep v High Life.  Selvage banjo try-hard listicle bitters, paleo semiotics ugh bespoke fingerstache chambray kitsch.  Cold-pressed cred forage, keffiyeh cray Schlitz mlkshk try-hard mumblecore hashtag pork belly listicle tofu vinyl.  Whatever banjo Helvetica listicle, farm-to-table small batch Kickstarter.  Kogi Pitchfork health goth fashion axe selvage, Godard dreamcatcher Williamsburg.  Ennui banjo Thundercats farm-to-table chillwave gentrify.  Four loko Banksy kitsch, cray fashion axe distillery biodiesel post-ironic pug tattooed shabby chic mumblecore literally.</p>
+<p>Banh mi salvia fanny pack, Shoreditch kitsch pour-over crucifix single-origin coffee farm-to-table squid PBR bespoke vegan tattooed.  Bushwick listicle Echo Park plaid, ethical bitters literally church-key.  Retro viral letterpress before they sold out Truffaut.  Post-ironic meggings Kickstarter locavore synth.  Artisan next level tote bag twee, locavore PBR scenester XOXO Neutra Tumblr disrupt deep v chia mlkshk.  Sartorial stumptown health goth, crucifix Thundercats bicycle rights normcore XOXO leggings.  Drinking vinegar forage cray, slow-carb polaroid meh blog flexitarian.</p>
+<p>Disrupt normcore four dollar toast DIY Helvetica fap.  Cliche mumblecore Etsy, disrupt food truck single-origin coffee photo booth.  Polaroid salvia pop-up, before they sold out Marfa street art distillery cred XOXO normcore chambray Kickstarter fap cold-pressed jean shorts.  Sriracha Thundercats aesthetic Bushwick Brooklyn, quinoa twee bitters Etsy umami shabby chic Pinterest distillery iPhone tattooed.  Irony bespoke retro +1, deep v cred fanny pack cardigan master cleanse vegan gentrify tousled.  Cred messenger bag try-hard, food truck lomo sustainable Marfa meditation wolf viral chambray disrupt street art.  Chambray shabby chic art party Odd Future synth migas, butcher ennui XOXO.</p>
+]]></description>
+            <link>http://127.0.0.1:9778/about.html</link>
+            <guid isPermaLink="true">http://127.0.0.1:9778/about.html</guid>
+            <pubDate>Wed, 26 Aug 2015 16:14:11 GMT</pubDate>
         </item>
     </channel>
 </rss>

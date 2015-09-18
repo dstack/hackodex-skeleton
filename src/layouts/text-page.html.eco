@@ -5,7 +5,8 @@ isPage: true
 ---
 <div class="ct">
   <div class="main">
-    <h1><%= @document.title %></h1>
+    <h1><%- @document.title %></h1>
     <%- @content %>
+    <div class="cf"></div>
   </div>
 </div>

@@ -1,0 +1,8 @@
+---
+title: "We <i class=\"fa fa-heart red\"></i> Our Sponsors"
+docTitle: 'We ♥ Our Sponsors'
+layout: "text-page"
+---
+
+#### Thanks to our sponsors and partners below, we're able to have a <b>great</b> hackathon.
+<%- @partial('sponsors') %>

@@ -31,6 +31,8 @@ docpadConfig = {
 				zoom: 13
 			}
 		}
+		docTitle: ->
+			return (if @document.docTitle then @document.docTitle else ( if @document.title then @document.title else @event.eventName)) + ' | ' + @event.eventName;
 		evtStartDateTimeDisplay: ->
 			dateWithOffset = moment(@event.start);
 			return dateWithOffset.tz(@event.tz).format(dtDisplayFormat);
