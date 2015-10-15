@@ -5,12 +5,21 @@
 
 dtDisplayFormat = 'dddd, MMMM Do YYYY, h:mm a (z)';
 
+agendaDisplayFormat = 'h:mm a';
+
 moment = require('moment-timezone');
+
+agenda = [];
+try
+	agenda = require('./agenda');
+catch e
+	agenda = [];
 
 currentTZOffset = new Date().getTimezoneOffset();
 
 docpadConfig = {
 	templateData: {
+		agenda: agenda,
 		event: {
 			eventName: 'Hackodex',
 			start: '2015-08-08 09:30',
@@ -39,6 +48,11 @@ docpadConfig = {
 		evtEndDateTimeDisplay: ->
 			dateWithOffset = moment(@event.end);
 			return dateWithOffset.tz(@event.tz).format(dtDisplayFormat);
+		agendaDateFormat: (v) ->
+			dateWithOffset = moment(v);
+			return dateWithOffset.tz(@event.tz).format(agendaDisplayFormat);
+		tzOnly: ->
+			return moment().tz(@event.tz).format('z');
 		currentYear: ->
 			return moment().format('YYYY');
 		getMapImg: ->
@@ -49,7 +63,6 @@ docpadConfig = {
 				color = marker.color || 'green';
 				label = marker.label || '';
 				markerStr += '&markers=color:' + color + '%7Clabel:' + label + '%7C' + loc
-
 
 			return 'https://maps.googleapis.com/maps/api/staticmap?center=' + @event.location.mapCenter + markerStr + '&zoom=' + @event.location.zoom + '&scale=2&size=1280x250&maptype=roadmap';
 	}

@@ -1,0 +1,68 @@
+marker-w = 24px
+marker-color = primary-color
+
+track-w = marker-w / 4
+track-color = lighten(grey, 50%)
+
+item-border = lighten(grey, 25%)
+item-bg = white
+
+pointer-w = 16px
+
+
+
+
+.agenda-track
+  display block
+  relative 0px 0px
+  padding 20px 0px
+  &:before
+    content ' '
+    width track-w
+    height 100%
+    margin-left track-w * -0.5
+    absolute top 0px left 50%
+    background track-color
+  .agenda-marker
+    width marker-w
+    height marker-w
+    relative top 0px left 50%
+    margin-left marker-w * -0.5
+    background marker-color
+    border-radius 50%
+
+  .agenda-item
+    margin-top pointer-w * -1 + -5
+    offset = marker-w / 2 + pointer-w
+    margin-right "calc(50% + %s)" % offset
+    margin-bottom 20px
+    border solid 1px item-border
+    padding 12px
+    position relative
+    background item-bg
+    border-radius 3px
+    &:before, &:after
+      content ''
+      position absolute
+      width 0
+      height 0
+      border-style solid
+      border-color transparent
+      border-width pointer-w pointer-w 0 0
+    &:before
+      right pointer-w * -1
+      top 5px
+      border-top-color item-border
+    &:after
+      right pointer-w * -1 + 2
+      top 6px
+      border-top-color item-bg
+    &:nth-of-type(4n)
+      margin-right 0px
+      margin-left "calc(50% + %s)" % offset
+      &:before, &:after
+        border-width pointer-w 0 0 pointer-w
+      &:before
+        left pointer-w * -1
+      &:after
+        left pointer-w * -1 + 2

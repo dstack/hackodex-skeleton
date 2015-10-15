@@ -3,16 +3,39 @@ title: "Agenda"
 layout: "text-page"
 ---
 
-# Semantic UI Fixed Template
+<h3>All times are in <%= @tzOnly() %></h3>
+<p>
+  Notes:  Get some standard event types and icons for such.
+  Also figure out a way to display multiple tracks on one page, and fix event styling.
+  Determine if it will be better to have a day marker and then times, OR, if it is better to have the days on the event info boxes themselves.  Probably the former.
+  </p>
 
-This is a basic fixed menu template using fixed size containers.
+<div class="agenda-track">
 
-A text container is used for the main container, which is useful for single column layouts
 
-YOLO cold-pressed pork belly actually, literally Echo Park artisan twee fingerstache Shoreditch authentic four dollar toast ennui.  Banh mi farm-to-table iPhone, mumblecore Bushwick Wes Anderson plaid drinking vinegar Brooklyn irony.  Fixie shabby chic chillwave, mumblecore plaid McSweeney's bespoke vegan Godard locavore Truffaut.  Truffaut cliche leggings, art party stumptown photo booth semiotics Thundercats dreamcatcher readymade irony Schlitz four dollar toast.  Retro fashion axe pork belly Intelligentsia XOXO, mustache semiotics pour-over.  Lo-fi Vice iPhone, kitsch Neutra tote bag biodiesel Echo Park selvage.  Drinking vinegar American Apparel Shoreditch tilde tattooed bespoke, kogi aesthetic cold-pressed mlkshk.
+<% for agendaItem in @agenda: %>
 
-Polaroid American Apparel heirloom fanny pack deep v High Life.  Selvage banjo try-hard listicle bitters, paleo semiotics ugh bespoke fingerstache chambray kitsch.  Cold-pressed cred forage, keffiyeh cray Schlitz mlkshk try-hard mumblecore hashtag pork belly listicle tofu vinyl.  Whatever banjo Helvetica listicle, farm-to-table small batch Kickstarter.  Kogi Pitchfork health goth fashion axe selvage, Godard dreamcatcher Williamsburg.  Ennui banjo Thundercats farm-to-table chillwave gentrify.  Four loko Banksy kitsch, cray fashion axe distillery biodiesel post-ironic pug tattooed shabby chic mumblecore literally.
+<div class="agenda-marker"></div>
+<div class="agenda-item">
+  <div class="date-time"><%= @agendaDateFormat(agendaItem.start) %> - <%= @agendaDateFormat(agendaItem.end) %></div>
+  <b><%= agendaItem.eventName %></b><br/><br/>
+  <p><%= agendaItem.description %></p>
+</div>
 
-Banh mi salvia fanny pack, Shoreditch kitsch pour-over crucifix single-origin coffee farm-to-table squid PBR bespoke vegan tattooed.  Bushwick listicle Echo Park plaid, ethical bitters literally church-key.  Retro viral letterpress before they sold out Truffaut.  Post-ironic meggings Kickstarter locavore synth.  Artisan next level tote bag twee, locavore PBR scenester XOXO Neutra Tumblr disrupt deep v chia mlkshk.  Sartorial stumptown health goth, crucifix Thundercats bicycle rights normcore XOXO leggings.  Drinking vinegar forage cray, slow-carb polaroid meh blog flexitarian.
+<div class="agenda-marker"></div>
+<div class="agenda-item">
+  <div class="date-time"><%= @agendaDateFormat(agendaItem.start) %> - <%= @agendaDateFormat(agendaItem.end) %></div>
+  <b><%= agendaItem.eventName %></b><br/><br/>
+  <p><%= agendaItem.description %></p>
+</div>
 
-Disrupt normcore four dollar toast DIY Helvetica fap.  Cliche mumblecore Etsy, disrupt food truck single-origin coffee photo booth.  Polaroid salvia pop-up, before they sold out Marfa street art distillery cred XOXO normcore chambray Kickstarter fap cold-pressed jean shorts.  Sriracha Thundercats aesthetic Bushwick Brooklyn, quinoa twee bitters Etsy umami shabby chic Pinterest distillery iPhone tattooed.  Irony bespoke retro +1, deep v cred fanny pack cardigan master cleanse vegan gentrify tousled.  Cred messenger bag try-hard, food truck lomo sustainable Marfa meditation wolf viral chambray disrupt street art.  Chambray shabby chic art party Odd Future synth migas, butcher ennui XOXO.
+<div class="agenda-marker"></div>
+<div class="agenda-item">
+  <div class="date-time"><%= @agendaDateFormat(agendaItem.start) %> - <%= @agendaDateFormat(agendaItem.end) %></div>
+  <b><%= agendaItem.eventName %></b><br/><br/>
+  <p><%= agendaItem.description %></p>
+</div>
+
+<% end %>
+
+</div>
