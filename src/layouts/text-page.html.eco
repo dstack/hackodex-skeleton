@@ -3,9 +3,21 @@ title: "Welcome!"
 layout: "default"
 isPage: true
 ---
+<% if @document.masthead: %>
+<div class="text-page-masthead center" style="background-image: url('/img/<%= @document.masthead %>')">
+  <div class="ct">
+    <h1><%- @document.title %></h1>
+    <% if @document.subtitle: %><br/>
+    <p><%- @document.subtitle%></p>
+    <% end %>
+  </div>
+</div>
+<% end %>
 <div class="ct">
   <div class="main">
+    <% if !@document.masthead: %>
     <h1><%- @document.title %></h1>
+    <% end %>
     <%- @content %>
     <div class="cf"></div>
   </div>

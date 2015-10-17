@@ -1,41 +1,14 @@
 ---
-title: "Agenda"
+title: "The Agenda"
 layout: "text-page"
 ---
 
 <h3>All times are in <%= @tzOnly() %></h3>
-<p>
-  Notes:  Get some standard event types and icons for such.
-  Also figure out a way to display multiple tracks on one page, and fix event styling.
-  Determine if it will be better to have a day marker and then times, OR, if it is better to have the days on the event info boxes themselves.  Probably the former.
-  </p>
 
+<% for track of @agenda: %>
+<%= if track != 'def' then 'track' else '' %>
 <div class="agenda-track">
-
-
-<% for agendaItem in @agenda: %>
-
-<div class="agenda-marker"></div>
-<div class="agenda-item">
-  <div class="date-time"><%= @agendaDateFormat(agendaItem.start) %> - <%= @agendaDateFormat(agendaItem.end) %></div>
-  <b><%= agendaItem.eventName %></b><br/><br/>
-  <p><%= agendaItem.description %></p>
-</div>
-
-<div class="agenda-marker"></div>
-<div class="agenda-item">
-  <div class="date-time"><%= @agendaDateFormat(agendaItem.start) %> - <%= @agendaDateFormat(agendaItem.end) %></div>
-  <b><%= agendaItem.eventName %></b><br/><br/>
-  <p><%= agendaItem.description %></p>
-</div>
-
-<div class="agenda-marker"></div>
-<div class="agenda-item">
-  <div class="date-time"><%= @agendaDateFormat(agendaItem.start) %> - <%= @agendaDateFormat(agendaItem.end) %></div>
-  <b><%= agendaItem.eventName %></b><br/><br/>
-  <p><%= agendaItem.description %></p>
-</div>
-
+<% for day of @agenda[track]: %><div class="day-divider"><span><%= day %></span></div><% for agendaItem, indx in@agenda[track][day]: %><%- @partial('agendaItem', {agendaItem: agendaItem, indx: indx}) %><% end %>
 <% end %>
-
 </div>
+<% end %>

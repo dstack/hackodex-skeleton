@@ -15,7 +15,7 @@ pointer-w = 16px
 .agenda-track
   display block
   relative 0px 0px
-  padding 20px 0px
+  padding 0px 0px 5px 0px
   &:before
     content ' '
     width track-w
@@ -23,24 +23,45 @@ pointer-w = 16px
     margin-left track-w * -0.5
     absolute top 0px left 50%
     background track-color
+  .day-divider
+    text-align center
+    font-weight 700
+    position relative
+    margin-bottom 15px
+    span
+      background track-color
+      padding 6px 8px
   .agenda-marker
     width marker-w
     height marker-w
-    relative top 0px left 50%
+    relative top -70px left 50%
     margin-left marker-w * -0.5
     background marker-color
     border-radius 50%
-
+    text-align center
+    color white
+    line-height marker-w
+    font-size marker-w * 0.75
+  .day-divider + .agenda-marker
+    top 0px
   .agenda-item
-    margin-top pointer-w * -1 + -5
+    margin-top pointer-w * -1 + -75
     offset = marker-w / 2 + pointer-w
     margin-right "calc(50% + %s)" % offset
-    margin-bottom 20px
+    margin-bottom 30px
     border solid 1px item-border
     padding 12px
     position relative
     background item-bg
     border-radius 3px
+    p
+      color lighten(black, 25%)
+      margin 8px 0px
+      font-size 0.8em
+    .agenda-meta
+      font-size 0.8em
+      text-align right
+      color lighten(black, 35%)
     &:before, &:after
       content ''
       position absolute
@@ -57,7 +78,7 @@ pointer-w = 16px
       right pointer-w * -1 + 2
       top 6px
       border-top-color item-bg
-    &:nth-of-type(4n)
+    &.alt
       margin-right 0px
       margin-left "calc(50% + %s)" % offset
       &:before, &:after
@@ -66,3 +87,5 @@ pointer-w = 16px
         left pointer-w * -1
       &:after
         left pointer-w * -1 + 2
+  .day-divider + .agenda-marker + .agenda-item
+    margin-top pointer-w * -1 + -5

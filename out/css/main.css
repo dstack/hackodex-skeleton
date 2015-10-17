@@ -734,6 +734,67 @@ a {
 .main {
   margin: 3em 0px;
 }
+.main .section {
+  margin-bottom: 24px;
+  zoom: 1;
+}
+.main .section:before,
+.main .section:after {
+  content: "";
+  display: table;
+}
+.main .section:after {
+  clear: both;
+}
+.main .about-engineers,
+.main .about-artists,
+.main .about-teams {
+  text-align: center;
+}
+.main .about-engineers i.fa,
+.main .about-artists i.fa,
+.main .about-teams i.fa {
+  font-size: 200px;
+}
+.main .about-engineers {
+  color: #009688;
+}
+.main .about-artists {
+  color: #ffc107;
+}
+.main .about-teams {
+  color: #8bc34a;
+}
+.main .big-split .big-side {
+  float: left;
+  clear: none;
+  width: 65.6666666666667%;
+  margin-left: 0;
+  margin-right: 3%;
+}
+.main .big-split .big-side:last-child {
+  margin-right: 0;
+}
+.main .big-split .small-side {
+  float: left;
+  clear: none;
+  width: 31.3333333333333%;
+  margin-left: 0;
+  margin-right: 3%;
+}
+.main .big-split .small-side:last-child {
+  margin-right: 0;
+}
+.main .three-col .col {
+  float: left;
+  clear: none;
+  width: 31.3333333333333%;
+  margin-left: 0;
+  margin-right: 3%;
+}
+.main .three-col .col:last-child {
+  margin-right: 0;
+}
 .footer {
   margin-bottom: 0px;
   font-size: 0.75em;
@@ -838,6 +899,37 @@ a {
   max-width: 90%;
   max-height: 90%;
 }
+.text-page-masthead {
+  height: 28%;
+  min-height: 200px;
+  margin-top: 44px;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  background-size: cover;
+  background-position: 50% 50%;
+  background-repeat: no-repeat;
+  -webkit-perspective: 600px;
+  -moz-perspective: 600px;
+  -ms-perspective: 600px;
+  perspective: 600px;
+}
+.text-page-masthead h1,
+.text-page-masthead p {
+  color: #fff;
+  background: rgba(33,33,33,0.85);
+  -webkit-border-radius: 2px;
+  border-radius: 2px;
+  padding: 8px 12px;
+  display: inline-block;
+  -webkit-transform: rotateX(15deg);
+  -moz-transform: rotateX(15deg);
+  -o-transform: rotateX(15deg);
+  -ms-transform: rotateX(15deg);
+  transform: rotateX(15deg);
+}
+.text-page-masthead p {
+  margin-top: 0.5em;
+}
 @media screen and (max-width: 500px) {
   nav.topnav .logo {
     font-size: 0px;
@@ -850,7 +942,7 @@ a {
   display: block;
   position: relative;
   0: 0px;
-  padding: 20px 0px;
+  padding: 0px 0px 5px 0px;
 }
 .agenda-track:before {
   content: ' ';
@@ -862,27 +954,54 @@ a {
   left: 50%;
   background: #cfcfcf;
 }
+.agenda-track .day-divider {
+  text-align: center;
+  font-weight: 700;
+  position: relative;
+  margin-bottom: 15px;
+}
+.agenda-track .day-divider span {
+  background: #cfcfcf;
+  padding: 6px 8px;
+}
 .agenda-track .agenda-marker {
   width: 24px;
   height: 24px;
   position: relative;
-  top: 0px;
+  top: -70px;
   left: 50%;
   margin-left: -12px;
   background: #e91e63;
   -webkit-border-radius: 50%;
   border-radius: 50%;
+  text-align: center;
+  color: #fff;
+  line-height: 24px;
+  font-size: 18px;
+}
+.agenda-track .day-divider + .agenda-marker {
+  top: 0px;
 }
 .agenda-track .agenda-item {
-  margin-top: -21px;
+  margin-top: -91px;
   margin-right: calc(50% + 28px);
-  margin-bottom: 20px;
+  margin-bottom: 30px;
   border: solid 1px #b6b6b6;
   padding: 12px;
   position: relative;
   background: #fff;
   -webkit-border-radius: 3px;
   border-radius: 3px;
+}
+.agenda-track .agenda-item p {
+  color: #595959;
+  margin: 8px 0px;
+  font-size: 0.8em;
+}
+.agenda-track .agenda-item .agenda-meta {
+  font-size: 0.8em;
+  text-align: right;
+  color: #6f6f6f;
 }
 .agenda-track .agenda-item:before,
 .agenda-track .agenda-item:after {
@@ -904,17 +1023,20 @@ a {
   top: 6px;
   border-top-color: #fff;
 }
-.agenda-track .agenda-item:nth-of-type(4n) {
+.agenda-track .agenda-item.alt {
   margin-right: 0px;
   margin-left: calc(50% + 28px);
 }
-.agenda-track .agenda-item:nth-of-type(4n):before,
-.agenda-track .agenda-item:nth-of-type(4n):after {
+.agenda-track .agenda-item.alt:before,
+.agenda-track .agenda-item.alt:after {
   border-width: 16px 0 0 16px;
 }
-.agenda-track .agenda-item:nth-of-type(4n):before {
+.agenda-track .agenda-item.alt:before {
   left: -16px;
 }
-.agenda-track .agenda-item:nth-of-type(4n):after {
+.agenda-track .agenda-item.alt:after {
   left: -14px;
+}
+.agenda-track .day-divider + .agenda-marker + .agenda-item {
+  margin-top: -21px;
 }

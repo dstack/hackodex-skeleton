@@ -228,6 +228,28 @@ a
 
 .main
   margin 3em 0px
+  .section
+    margin-bottom 24px
+    clearfix()
+  .about-engineers
+  .about-artists
+  .about-teams
+    text-align center
+    i.fa
+      font-size 200px
+  .about-engineers
+    color teal
+  .about-artists
+    color amber
+  .about-teams
+    color light-green
+  .big-split
+    .big-side
+      j-column(2/3)
+    .small-side
+      j-column(1/3)
+  .three-col .col
+    j-column(1/3)
 
 
 .footer
@@ -280,6 +302,24 @@ a
   img
     max-width 90%
     max-height 90%
+
+.text-page-masthead
+  height 28%
+  min-height 200px
+  margin-top 44px
+  background-size cover
+  background-position 50% 50%
+  background-repeat no-repeat
+  perspective 600px
+  h1, p
+    color white
+    background rgba(black, 0.85)
+    border-radius 2px
+    padding 8px 12px
+    display inline-block
+    transform rotateX( 15deg )
+  p
+    margin-top 0.5em
 
 @media screen and (max-width: 500px)
   nav.topnav

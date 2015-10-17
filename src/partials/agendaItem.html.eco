@@ -1,0 +1,20 @@
+<div class="agenda-marker"></div>
+<div class="agenda-item <%= if @indx % 2 != 0 then 'alt' else '' %>">
+  <div class="agenda-meta">
+    <span class="date-time">
+    <%= @agendaDateFormat(@agendaItem.start) %> - <%= @agendaDateFormat(@agendaItem.end) %>
+    <span style="font-style: italic;">(<%= @agendaItem.dur %> h)</span>
+    </span>
+  </div>
+  <% if @agendaItem.type: %>
+  <% if @agendaItem.type is 'food': %><i class="fa fa-cutlery"></i><% end %>
+  <% if @agendaItem.type is 'surprise': %><i class="fa fa-question-circle"></i><% end %>
+  <% if @agendaItem.type is 'talk': %><i class="fa fa-bullhorn"></i><% end %>
+  <% if @agendaItem.type is 'celebrity': %><i class="fa fa-star"></i><% end %>
+  <% if @agendaItem.type is 'hack': %><i class="fa fa-code"></i><% end %>
+  <% end %>
+  <b class="item-title"><%= @agendaItem.eventName %></b><br/>
+  <p>
+  <%= @agendaItem.description %>
+  </p>
+</div>

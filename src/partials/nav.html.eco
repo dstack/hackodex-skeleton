@@ -8,7 +8,9 @@
       <li><a href="/judging.html">Judging</a></li>
     </ul>
   </li>
+  <% if @agenda.def: %>
   <li><a class="item" href="/agenda.html">Agenda</a></li>
+  <% end %>
   <li>
     <a class="item" href="#" onclick="return false;">Info <i class="fa fa-caret-down"></i></a>
     <ul>

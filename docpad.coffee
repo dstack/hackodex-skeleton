@@ -3,28 +3,55 @@
 
 # Define the DocPad Configuration
 
-dtDisplayFormat = 'dddd, MMMM Do YYYY, h:mm a (z)';
-
-agendaDisplayFormat = 'h:mm a';
-
 moment = require('moment-timezone');
+fs = require('fs');
+
+dtDisplayFormat = 'dddd, MMMM Do YYYY, h:mm a (z)';
+agendaDisplayFormat = 'h:mm a';
+eventTZ = 'America/Denver';
 
 agenda = [];
 try
-	agenda = require('./agenda');
+	agenda = require('./src/data/agenda');
 catch e
 	agenda = [];
 
+agendaData = {}
+mapAgenda = (item) ->
+	track = 'def';
+	day = moment(item.start).tz(eventTZ).format('dddd');
+	item.dur = moment.duration(moment(item.end).valueOf() - moment(item.start).valueOf()).asHours();
+	if item.track
+		track = item.track;
+	if !agendaData[track]
+		agendaData[track] = {};
+	if !agendaData[track][day]
+		agendaData[track][day] = [];
+	agendaData[track][day].push item;
+
+agenda.sort (a, b) ->
+  da = moment(a.start).tz(eventTZ).valueOf()
+  db = moment(b.start).tz(eventTZ).valueOf()
+  da - db
+
+for agendaItem in agenda
+	mapAgenda(agendaItem);
+
+fs.writeFileSync './log.json', JSON.stringify(agendaData, null, '  ') ;
+
+
 currentTZOffset = new Date().getTimezoneOffset();
+
+
 
 docpadConfig = {
 	templateData: {
-		agenda: agenda,
+		agenda: agendaData,
 		event: {
 			eventName: 'Hackodex',
 			start: '2015-08-08 09:30',
 			end: '2015-08-13 00:00',
-			tz: 'America/Denver',
+			tz: eventTZ,
 			shortDescription: 'Changing the World with Technology, Ideas, &amp; Hard Work.',
 			location: {
 				display: '<b>Pearson eCollege Headquarters</b><br/>2154 E. Commons Avenue, Suite 4000,<br/>Centennial, CO 80122',
