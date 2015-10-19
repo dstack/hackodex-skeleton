@@ -1,9 +1,10 @@
 ---
 title: "The Agenda"
 layout: "text-page"
+masthead: "stock/agenda.jpg"
 ---
 
-<h3>All times are in <%= @tzOnly() %></h3>
+<% @document.subtitle = 'All times are in ' + @tzOnly() %>
 
 <% for track of @agenda: %>
 <%= if track != 'def' then 'track' else '' %>

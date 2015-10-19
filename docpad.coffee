@@ -92,7 +92,10 @@ docpadConfig = {
 				markerStr += '&markers=color:' + color + '%7Clabel:' + label + '%7C' + loc
 
 			return 'https://maps.googleapis.com/maps/api/staticmap?center=' + @event.location.mapCenter + markerStr + '&zoom=' + @event.location.zoom + '&scale=2&size=1280x250&maptype=roadmap';
-	}
+	},
+	regeneratePaths: ['./src/render/css'],
+	reloadPaths: ['./src/data']
+
 }
 
 # Export the DocPad Configuration

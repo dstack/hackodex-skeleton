@@ -917,8 +917,8 @@ a {
 .text-page-masthead p {
   color: #fff;
   background: rgba(33,33,33,0.85);
-  -webkit-border-radius: 2px;
-  border-radius: 2px;
+  -webkit-border-radius: 3px;
+  border-radius: 3px;
   padding: 8px 12px;
   display: inline-block;
   -webkit-transform: rotateX(15deg);
@@ -929,6 +929,9 @@ a {
 }
 .text-page-masthead p {
   margin-top: 0.5em;
+}
+ol.rules li {
+  list-style: outside decimal;
 }
 @media screen and (max-width: 500px) {
   nav.topnav .logo {
